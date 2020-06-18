@@ -1895,7 +1895,7 @@
 			try {
 				gcmObj = new gcm.GcmCore();
 				gcmUrl = gcmConfigPath;
-				gcmUrl="http://localhost:2015/gcm/gcm-core/gcm.js";
+				gcmUrl="https://albinabel365.github.io/gdmporting/gcm/gcm-core/gcm.js";
 				var isGcm4_0 = gcmObj.init.length == 2;
 				if (isDebug()) {
 					console.log("GDM to gcm - gcm init, is gcm 4.1 or above ? " + (!isGcm4_0))
@@ -1911,7 +1911,7 @@
 				} catch(err) {
 					gcmUrl = gcmConfigPath;
 				}
-				gcmUrl="http://localhost:2015/gcm/gcm-core/gcm.js";
+				gcmUrl="https://albinabel365.github.io/gdmporting/gcm/gcm-core/gcm.js";
 				if (gcmObj == null) {
 					$.getScript(gcmUrl, function(){
 						gcmObj = new gcm.GcmCore();

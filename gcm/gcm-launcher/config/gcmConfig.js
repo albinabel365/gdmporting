@@ -33,6 +33,7 @@ var GCMConfig = (function () {
         "thunderkick.com",
         "pariplaygames.com",
         "gameiom.com",
+		"albinabel365.github.io"
     ];
 
     var _operator_Properties = {
