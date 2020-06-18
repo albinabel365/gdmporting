@@ -1,0 +1,284 @@
+{
+  "frames" : {
+    "resources/atlas/z_bonus/z_bonus-10" : {
+      "frame" : {
+        "x" : 2065,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-00" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-11" : {
+      "frame" : {
+        "x" : 2271,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-01" : {
+      "frame" : {
+        "x" : 211,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-12" : {
+      "frame" : {
+        "x" : 2477,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-02" : {
+      "frame" : {
+        "x" : 417,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-13" : {
+      "frame" : {
+        "x" : 2683,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-03" : {
+      "frame" : {
+        "x" : 623,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-14" : {
+      "frame" : {
+        "x" : 2889,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-04" : {
+      "frame" : {
+        "x" : 829,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-15" : {
+      "frame" : {
+        "x" : 3095,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-05" : {
+      "frame" : {
+        "x" : 1035,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-16" : {
+      "frame" : {
+        "x" : 3301,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-06" : {
+      "frame" : {
+        "x" : 1241,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-17" : {
+      "frame" : {
+        "x" : 3507,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-07" : {
+      "frame" : {
+        "x" : 1447,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-18" : {
+      "frame" : {
+        "x" : 3713,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-19" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-08" : {
+      "frame" : {
+        "x" : 1653,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/z_bonus/z_bonus-09" : {
+      "frame" : {
+        "x" : 1859,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    }
+  }
+}

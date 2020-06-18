@@ -1,0 +1,292 @@
+<div style="margin:20px; text-align:left; font-size: 20px;" id="ops"><p>
+<style>
+.swiper-container {
+    backface-visibility: hidden;
+    /*margin: 0 auto;*/
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+	float:left; 
+	margin:3px;
+}
+.swiper-wrapper {
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0s;
+    transition-property: transform, left, top;
+    transition-timing-function: ease;
+    width: 100%;
+}
+.swiper-free-mode > .swiper-wrapper {
+    margin: 0 auto;
+    transition-timing-function: ease-out;
+}
+.swiper-slide {
+    float: left;
+}
+</style>
+<script src="./swiper.js"></script>
+  <script type="text/javascript">
+		var clearIt = function() { $("input[name='stops']").val(""); };
+		
+		// NOTE: The following functions are used to force the game into a particular state in order to quickly verify certain functionality
+		// You should always re-load the game after verifying the functionality so that it ends up in the correct state
+		var gCurrencyTestIndex = 0;
+		var currencyDefinitions = ["CUR=ISO:EUR|,|.|0x20AC;|L|112;|R",
+								   "CUR=ISO:SEK| |,|32;83;69;75;|R|32;|R",
+								   "CUR=ISO:CZK|,|.|75;269;|L|112;|R",
+								   "CUR=ISO:GBP|,|.|163;|L|112;|R",
+								   "CUR=ISO:GBP|,|.|32;83;47;46;|R|112;|R",
+								   "CUR=ISO:GBP|||32;|R||L"]; 
+
+		var swiperReels;
+		
+		function refreshMeters()
+		{
+			game.opt_balance = -2;		// used to figure out if the meters need to be updated
+			game.opt_bet 	 = -2;
+			game.opt_win 	 = -2;
+		}
+		
+		function DEBUG_CURRENCY()
+		{
+			game.account.setCurrency(currencyDefinitions[gCurrencyTestIndex]);
+			gCurrencyTestIndex++;
+			gCurrencyTestIndex = gCurrencyTestIndex % currencyDefinitions.length;
+			refreshMeters();
+		}
+
+		// Clear the balance to force the low balance message in the UI - used for checking translations
+		function DEBUG_CLEAR_BALANCE()
+		{
+			game.account.balance = 0;
+			game.account.currentOnScreenBalance   = 0;
+			refreshMeters();
+		};
+
+		// Force all the currently selected paylines to stay displayed - useful for checking alignment
+		// Select max paylines to view all, or less paylines to only show those		
+		function DEBUG_SHOW_PAYLINES()
+		{
+			game.paylineShowDelay = 1000000;
+			game.showLines(true);
+		};
+		
+		// Force all the symbols to flash or animate. It sends a pretend win message with pretend wins on all symbols
+		// Useful for checking symbol alignment against background graphics
+		function DEBUG_FLASH_ALL_SYMBOLS()
+		{
+			processServerMsg("&MSGID=BET&B=753990&VER=2.5.803-1.1.1-1-4&RID=0&NRID=0&BPL=20&LB=15&RS=28|25|13|2|20|&TW=100&WC=3|0|0|&WS=2;100;2;2;2;2;2;|0;100;1;1;1;1;1;|1;100;0;0;0;0;0;|&IFG=0&MUL=1&SUB=0&GA=1&SID=SESSION00000&");
+			game.setState(SS_WIN_PAYLINE);
+		};
+		
+		// Force new values into the win meters in order to check for enough space - useful for language translations
+		function DEBUG_MAX_METERS()
+		{
+			game.account.balance   = 999999999;
+			game.account.winAmount = 999999999;
+			game.account.currentOnScreenBalance   = 999999999;
+			game.account.currentOnScreenWinAmount = 999999999;
+
+			game.account.paylinesSelected = game.account.NUM_PAYLINES; 
+			game.account.currentBetIndex = game.account.betAmounts.length-1;
+			game.account.setCurrency(currencyDefinitions[1]);
+			refreshMeters();
+		};
+		
+		// Display an error message - force an error message to display
+		function DEBUG_ERROR_MSG()
+		{
+			processServerMsg("&MSGID=ERROR&EID=ERROR_PROTOCOL_SEQUENCE&SID=SESSION00000&");
+			game.setState(SS_STOPPED);
+		};
+		
+		function DEBUG_FAST_SPIN()
+		{
+			game.reelMan.setFastSpin(true);
+		};
+
+		function SHOW_OLD_METERS()
+		{
+			game.showOldMeters = !game.showOldMeters;
+		};
+
+		function SHOW_CLOCK()
+		{
+			apiExt("SHOW_CLOCK",!game.clock.enabled);
+		};
+
+		
+		function DEBUG_HOME_BUTTON_DURING_SPIN()
+		{
+			apiExt("SET_MENU_BTN_SWITCH",false);
+		};
+		
+		function setLastStops()
+		{
+			var stopReels = "";
+			if (game.slotResult.stops.length == 0) {
+				stopReels = game.defaultStops.join(";")
+			} else {
+				if (game.slotResult.stops.length == 6)
+				{
+					game.slotResult.stops.pop();
+				}
+				stopReels = game.slotResult.stops.join(";");
+			}
+			$("input[name='stops']").val(stopReels);
+		}
+		
+		function saveStops()
+		{
+			$("input[name='savedStops']").val($("input[name='stops']").val());
+		}
+		
+		function restoreStops()
+		{
+			$("input[name='stops']").val($("input[name='savedStops']").val());
+		}
+		
+		
+		function setStops(bool) {
+			if (bool) {
+				var stopsStr = "";
+				for (var i = 0; i<swiperReels.length; i++) {
+					stopsStr += (swiperReels[i].activeLoopIndex+1)%game.reelMan.reels[i].reelStrip.length+";";
+				}
+				stopsStr = stopsStr.substr(0, stopsStr.length-1);
+				$("input[name='stops']").val(stopsStr);
+			} /*else {
+				$("input[name='stops']").val("");
+			}*/
+			
+			$("#reelOptions").html("");
+			
+			for (var i = 0; i<swiperReels.length; i++) {
+				swiperReels[i].removeAllSlides();
+				swiperReels[i].destroy(false);
+				swiperReels[i] = null;
+			}
+			swiperReels = null;
+
+			$("#ops").css("display", "block");
+			$("#reelPanel").css("display", "none");
+			if (bool) {
+				$(".hide").trigger("click");
+			}
+		}
+		
+		function constructReelOptions()
+		{	
+			$("#reelPanel").css("display", "block");	
+			$("#ops").css("display", "none");
+			var symbolStaticImages = new Array();
+			swiperReels = new Array(game.reelMan.numReels);
+					
+			for (var i = 0; i < symSprites.length; i++) {
+				symbolStaticImages.push(symSprites[i][0]);
+			}
+					
+			for (var i = 0; i < game.reelMan.numReels; i++) {
+				$("#reelOptions").append("<div id='reelOption_"+i+"' class='swiper-container'></div>");
+				$("#reelOption_"+i).append("<div class='swiper-wrapper'></div>");
+				for (var j = 0; j < game.reelMan.reels[i].reelStrip.length; j++) {
+							 
+					$("#reelOption_"+i+" .swiper-wrapper").append($("<div class='swiper-slide'>").append("<div "+
+								"style='width: "+symbolStaticImages[game.reelMan.reels[i].reelStrip[j]].w+"px; "+
+								"height: "+symbolStaticImages[game.reelMan.reels[i].reelStrip[j]].h+"px;"+
+								"background-image: url("+symTextures[game.reelMan.reels[i].reelStrip[j]]+");"+
+								"background-position: -"+symbolStaticImages[game.reelMan.reels[i].reelStrip[j]].x+"px "+
+								"-"+symbolStaticImages[game.reelMan.reels[i].reelStrip[j]].y+"px;'></div>"));
+				}
+			} 
+			$("#reelOptions").append("<div style='margin:0px 5px; float:left'>"+
+									 "<input type='button' value='Set' class='popupButon' onclick='setStops(true)' style='margin-top:150px'/><br/><br/>"+
+									 "<input type='button' value='Cancel' class='popupButon' onclick='setStops(false)'/></div>");
+			$("#reelOptions").append("<div style='clear:both'></div>");
+			
+			$(".swiper-container").css({
+				"width": symbolStaticImages[0].w+"px",
+				"height": (symbolStaticImages[0].h*game.reelMan.numRows)+"px"
+			});
+			$(".swiper-slide").css({
+				"width": symbolStaticImages[0].w+"px",
+				"height": symbolStaticImages[0].h+"px"
+			});
+			
+			var stops = game.slotResult.stops.length == 0?game.defaultStops:game.slotResult.stops;
+			if ($.trim($("input[name='stops']").val())!="") {
+				var testStops = $.trim($("input[name='stops']").val()).split(";");
+				for (var i = 0; i < game.reelMan.numReels; i++) {
+					if (testStops.length > i) {
+						testStops[i] = Number(testStops[i]);
+					} else {
+						testStops.push(Number(stops[i]));
+					}
+				}
+				stops = testStops;
+			}
+			
+			for (var i = 0; i<swiperReels.length; i++) {
+				swiperReels[i] = $('#reelOption_'+i).swiper({
+									mode: 'vertical',
+									slidesPerView: game.reelMan.numRows,
+									loop: true,
+									speed:500,
+									watchActiveIndex: true,
+									grabCursor: true,
+									mousewheelControl: true,
+									keyboardControl: true,
+									initialSlide: Number(stops[i])-1
+								})
+			}	
+			
+			
+		}
+  </script>
+  
+</p>
+<p>
+<br />
+Testing Options
+<br/>
+</p>
+<p>
+	<form name="debugform">
+        <input type="button" value="Test" onClick="test()" class="popupButon"/>
+        <input type="button" value="Test2" onClick="test2()" class="popupButon"/>
+        <input type="button" name="restore2" value="Last stops" onclick="setLastStops();" class="popupButon"  />
+        <input type="text" name="stops" style="font-size: 20px;"/>
+        <input type="button" value="Clear" onClick="clearIt()" class="popupButon"/>
+        
+        <p>
+        <input type="button" name="save" value="Save stops" onclick="saveStops()" class="popupButon"  />
+        <input type="text" name="savedStops" style="font-size: 20px;" readonly="readonly"/>
+        <input type="button" name="restore1" value="Restore" onclick="restoreStops()" class="popupButon"  />
+        </p>
+        
+        <p>Use only for development:</p>
+        <input type="button" value="Zero Bal" onClick="DEBUG_CLEAR_BALANCE()" class="popupButon"/>
+        <input type="button" value="Paylines" onClick="DEBUG_SHOW_PAYLINES()" class="popupButon"/>
+        <input type="button" value="Flash Symbols" onClick="DEBUG_FLASH_ALL_SYMBOLS()" class="popupButon"/>
+        <input type="button" value="Max Meters" onClick="DEBUG_MAX_METERS()" class="popupButon"/>
+        <input type="button" value="Error" onClick="DEBUG_ERROR_MSG()" class="popupButon"/>
+        <input type="button" value="Cur" onClick="DEBUG_CURRENCY()" class="popupButon"/>
+        <input type="button" value="Fast" onClick="DEBUG_FAST_SPIN()" class="popupButon"/>
+        <input type="button" value="Home Button" onClick="DEBUG_HOME_BUTTON_DURING_SPIN()" class="popupButon"/>
+        <input type="button" value="Set Stops" onClick="constructReelOptions()" class="popupButon"/>
+        <input type="button" value="Old Meters" onClick="SHOW_OLD_METERS()" class="popupButon"/>
+        <input type="button" value="Clock" onClick="SHOW_CLOCK()" class="popupButon"/>
+    </form>
+</p>
+<p>
+    <span class="hide">
+        <input type="button" value="Hide" class="popupButon"/>
+    </span>
+</p>
+</div>
+<div style="margin:20px; font-size: 20px; display:none;" id="reelPanel">
+	<p>Swipe reels to set the reel stops</p>
+	<div id="reelOptions"></div>
+    <div style="clear:both"></div>
+</div>

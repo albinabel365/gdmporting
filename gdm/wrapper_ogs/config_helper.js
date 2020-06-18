@@ -1,0 +1,3 @@
+var configHelper=function(){return{lookupOperatorConfig:function(c,b){if(0<b.length)for(var a=0;a<b.length;a++)if(b[a].id==c)return b[a];return{id:"0",name:"Unknown",minSpinTime:0,quickStop:!0}},getGameDefaultGambleCount:function(c){var b=1;if(0<gGameConfig.gameGroups.thirdparty.length)for(var a=0;a<gGameConfig.gameGroups.thirdparty.length;a++)if(gGameConfig.gameGroups.thirdparty[a].gamename==c&&void 0!=gGameConfig.gameGroups.thirdparty[a].gambleCount){b=gGameConfig.gameGroups.thirdparty[a].gambleCount;
+break}return b}}}();"undefined"!==typeof exports&&(module.exports=configHelper);
+/* Version 3.0.17 Date: 20200514 */

@@ -1,0 +1,1029 @@
+{"frames": {
+
+"01_LeprechaunStart/LeprechaunStart_02.png":
+{
+	"frame": {"x":785,"y":952,"w":97,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":92,"w":97,"h":128},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_03.png":
+{
+	"frame": {"x":788,"y":1348,"w":95,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":94,"w":95,"h":126},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_04.png":
+{
+	"frame": {"x":893,"y":1461,"w":90,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":97,"w":90,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_05.png":
+{
+	"frame": {"x":1788,"y":1057,"w":87,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":100,"w":87,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_06.png":
+{
+	"frame": {"x":1658,"y":933,"w":88,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":103,"w":88,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_07.png":
+{
+	"frame": {"x":1019,"y":704,"w":89,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":104,"w":89,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_08.png":
+{
+	"frame": {"x":1228,"y":1126,"w":89,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":81,"y":104,"w":89,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_09.png":
+{
+	"frame": {"x":1017,"y":824,"w":91,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":104,"w":91,"h":117},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_10.png":
+{
+	"frame": {"x":882,"y":1084,"w":93,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":103,"w":93,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_11.png":
+{
+	"frame": {"x":1544,"y":813,"w":98,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":103,"w":98,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_12.png":
+{
+	"frame": {"x":1852,"y":813,"w":97,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":103,"w":97,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_13.png":
+{
+	"frame": {"x":1750,"y":932,"w":96,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":102,"w":96,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_14.png":
+{
+	"frame": {"x":1850,"y":935,"w":93,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":81,"y":102,"w":93,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_15.png":
+{
+	"frame": {"x":1321,"y":1126,"w":91,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":102,"w":91,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_16.png":
+{
+	"frame": {"x":1451,"y":821,"w":89,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":102,"w":89,"h":117},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_17.png":
+{
+	"frame": {"x":1788,"y":1180,"w":88,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":102,"w":88,"h":117},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_18.png":
+{
+	"frame": {"x":1198,"y":1487,"w":89,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":102,"w":89,"h":117},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_19.png":
+{
+	"frame": {"x":1756,"y":1430,"w":88,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":101,"w":88,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_20.png":
+{
+	"frame": {"x":1384,"y":1485,"w":89,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":101,"w":89,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_21.png":
+{
+	"frame": {"x":1695,"y":1055,"w":89,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":100,"w":89,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_22.png":
+{
+	"frame": {"x":887,"y":1334,"w":89,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":98,"w":89,"h":123},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_23.png":
+{
+	"frame": {"x":789,"y":1219,"w":89,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":96,"w":89,"h":125},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_24.png":
+{
+	"frame": {"x":886,"y":952,"w":89,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":96,"w":89,"h":125},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_25.png":
+{
+	"frame": {"x":882,"y":1206,"w":89,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":97,"w":89,"h":124},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_26.png":
+{
+	"frame": {"x":1198,"y":1361,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_27.png":
+{
+	"frame": {"x":1695,"y":1180,"w":89,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":100,"w":89,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_28.png":
+{
+	"frame": {"x":1477,"y":1485,"w":89,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":102,"w":89,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_29.png":
+{
+	"frame": {"x":1416,"y":1126,"w":89,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":103,"w":89,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_30.png":
+{
+	"frame": {"x":1509,"y":1126,"w":89,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":103,"w":89,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_31.png":
+{
+	"frame": {"x":1570,"y":1484,"w":89,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":101,"w":89,"h":120},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_32.png":
+{
+	"frame": {"x":1663,"y":1305,"w":89,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":100,"w":89,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_33.png":
+{
+	"frame": {"x":1291,"y":1361,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_34.png":
+{
+	"frame": {"x":1384,"y":1359,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_35.png":
+{
+	"frame": {"x":1477,"y":1359,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_36.png":
+{
+	"frame": {"x":1570,"y":1358,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_37.png":
+{
+	"frame": {"x":1602,"y":1053,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_38.png":
+{
+	"frame": {"x":1602,"y":1179,"w":89,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":89,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_39.png":
+{
+	"frame": {"x":1663,"y":1430,"w":89,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":100,"w":89,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_40.png":
+{
+	"frame": {"x":1756,"y":1305,"w":89,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":100,"w":89,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_41.png":
+{
+	"frame": {"x":1291,"y":1487,"w":89,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":104,"w":89,"h":117},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_42.png":
+{
+	"frame": {"x":1507,"y":1248,"w":91,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":115,"w":91,"h":106},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_43.png":
+{
+	"frame": {"x":794,"y":728,"w":107,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":131,"w":107,"h":90},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_44.png":
+{
+	"frame": {"x":979,"y":1058,"w":119,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":145,"w":119,"h":76},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_45.png":
+{
+	"frame": {"x":1384,"y":1049,"w":124,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":148,"w":124,"h":73},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_46.png":
+{
+	"frame": {"x":1242,"y":952,"w":121,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":128,"w":121,"h":93},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_47.png":
+{
+	"frame": {"x":785,"y":822,"w":112,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":95,"w":112,"h":126},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_48.png":
+{
+	"frame": {"x":1729,"y":536,"w":100,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":60,"w":100,"h":161},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_49.png":
+{
+	"frame": {"x":1328,"y":521,"w":96,"h":189},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":32,"w":96,"h":189},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_50.png":
+{
+	"frame": {"x":794,"y":523,"w":89,"h":201},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":20,"w":89,"h":201},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_51.png":
+{
+	"frame": {"x":1636,"y":536,"w":89,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":24,"w":89,"h":197},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_52.png":
+{
+	"frame": {"x":1428,"y":521,"w":95,"h":189},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":32,"w":95,"h":189},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_53.png":
+{
+	"frame": {"x":1222,"y":521,"w":102,"h":184},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":37,"w":102,"h":184},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_54.png":
+{
+	"frame": {"x":1112,"y":523,"w":106,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":41,"w":106,"h":180},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_55.png":
+{
+	"frame": {"x":887,"y":523,"w":108,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":42,"w":108,"h":179},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_56.png":
+{
+	"frame": {"x":999,"y":523,"w":109,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":44,"w":109,"h":177},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_57.png":
+{
+	"frame": {"x":1527,"y":536,"w":105,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":47,"w":105,"h":174},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_58.png":
+{
+	"frame": {"x":1833,"y":536,"w":97,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":63,"w":97,"h":158},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_59.png":
+{
+	"frame": {"x":789,"y":1084,"w":89,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":90,"w":89,"h":131},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_60.png":
+{
+	"frame": {"x":1565,"y":935,"w":89,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":110,"w":89,"h":111},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_61.png":
+{
+	"frame": {"x":1879,"y":1057,"w":97,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":116,"w":97,"h":105},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_62.png":
+{
+	"frame": {"x":975,"y":1218,"w":118,"h":97},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":124,"w":118,"h":97},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_63.png":
+{
+	"frame": {"x":1103,"y":1040,"w":135,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":139,"w":135,"h":82},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_64.png":
+{
+	"frame": {"x":1592,"y":737,"w":138,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":149,"w":138,"h":72},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_65.png":
+{
+	"frame": {"x":1242,"y":1049,"w":138,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":149,"w":138,"h":72},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_66.png":
+{
+	"frame": {"x":979,"y":1138,"w":137,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":145,"w":137,"h":76},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_67.png":
+{
+	"frame": {"x":1103,"y":952,"w":135,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":137,"w":135,"h":84},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_68.png":
+{
+	"frame": {"x":1456,"y":714,"w":132,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":127,"w":132,"h":94},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_69.png":
+{
+	"frame": {"x":1326,"y":714,"w":126,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":118,"w":126,"h":103},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_70.png":
+{
+	"frame": {"x":979,"y":945,"w":120,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":112,"w":120,"h":109},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_71.png":
+{
+	"frame": {"x":1835,"y":698,"w":116,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":110,"w":116,"h":111},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_72.png":
+{
+	"frame": {"x":905,"y":706,"w":110,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":108,"w":110,"h":113},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_73.png":
+{
+	"frame": {"x":980,"y":1319,"w":109,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":106,"w":109,"h":115},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_74.png":
+{
+	"frame": {"x":1222,"y":832,"w":111,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":105,"w":111,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_75.png":
+{
+	"frame": {"x":901,"y":823,"w":112,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":105,"w":112,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_76.png":
+{
+	"frame": {"x":1337,"y":821,"w":110,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":104,"w":110,"h":117},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"01_LeprechaunStart/LeprechaunStart_77.png":
+{
+	"frame": {"x":1112,"y":707,"w":106,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":103,"w":106,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_00.png":
+{
+	"frame": {"x":1112,"y":829,"w":106,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":54,"w":106,"h":119},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_01.png":
+{
+	"frame": {"x":1120,"y":1126,"w":104,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":57,"w":104,"h":116},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_02.png":
+{
+	"frame": {"x":1097,"y":1246,"w":101,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":61,"w":101,"h":111},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_03.png":
+{
+	"frame": {"x":1303,"y":1248,"w":99,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":66,"w":99,"h":106},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_04.png":
+{
+	"frame": {"x":1367,"y":942,"w":96,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":68,"w":96,"h":103},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_05.png":
+{
+	"frame": {"x":1880,"y":1166,"w":96,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":67,"w":96,"h":104},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_06.png":
+{
+	"frame": {"x":1202,"y":1246,"w":97,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":61,"w":97,"h":111},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_07.png":
+{
+	"frame": {"x":1749,"y":813,"w":99,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":57,"w":99,"h":115},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_08.png":
+{
+	"frame": {"x":1222,"y":709,"w":100,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":54,"w":100,"h":119},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_09.png":
+{
+	"frame": {"x":788,"y":1478,"w":101,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":53,"w":101,"h":120},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_10.png":
+{
+	"frame": {"x":1094,"y":1361,"w":100,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":54,"w":100,"h":119},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_11.png":
+{
+	"frame": {"x":1646,"y":813,"w":99,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":57,"w":99,"h":116},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_12.png":
+{
+	"frame": {"x":1734,"y":701,"w":97,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":64,"w":97,"h":108},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_13.png":
+{
+	"frame": {"x":1849,"y":1301,"w":95,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":67,"w":95,"h":104},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_14.png":
+{
+	"frame": {"x":1467,"y":942,"w":94,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":68,"w":94,"h":103},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_15.png":
+{
+	"frame": {"x":1849,"y":1409,"w":95,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":67,"w":95,"h":104},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_16.png":
+{
+	"frame": {"x":1406,"y":1248,"w":97,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":65,"w":97,"h":107},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_17.png":
+{
+	"frame": {"x":1094,"y":1484,"w":100,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":58,"w":100,"h":114},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"02_LeprechaunRun_loop/LeprechaunRunCycle-Loop_18.png":
+{
+	"frame": {"x":987,"y":1438,"w":103,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":55,"w":103,"h":118},
+	"sourceSize": {"w":173,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_00.png":
+{
+	"frame": {"x":2,"y":2,"w":386,"h":289},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":69,"y":22,"w":386,"h":289},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_01.png":
+{
+	"frame": {"x":2,"y":295,"w":386,"h":283},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":26,"w":386,"h":283},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_02.png":
+{
+	"frame": {"x":2,"y":865,"w":388,"h":270},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":38,"w":388,"h":270},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_03.png":
+{
+	"frame": {"x":1590,"y":277,"w":388,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":71,"y":51,"w":388,"h":255},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_04.png":
+{
+	"frame": {"x":2,"y":1408,"w":391,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":60,"w":391,"h":245},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_05.png":
+{
+	"frame": {"x":1193,"y":277,"w":393,"h":240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":69,"y":64,"w":393,"h":240},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_06.png":
+{
+	"frame": {"x":793,"y":274,"w":396,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":60,"w":396,"h":245},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_07.png":
+{
+	"frame": {"x":393,"y":557,"w":397,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":50,"w":397,"h":256},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_08.png":
+{
+	"frame": {"x":793,"y":2,"w":397,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":39,"w":397,"h":268},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_09.png":
+{
+	"frame": {"x":392,"y":2,"w":397,"h":274},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":34,"w":397,"h":274},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_10.png":
+{
+	"frame": {"x":392,"y":280,"w":396,"h":273},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":36,"w":396,"h":273},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_11.png":
+{
+	"frame": {"x":1194,"y":2,"w":394,"h":271},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":40,"w":394,"h":271},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_12.png":
+{
+	"frame": {"x":2,"y":1139,"w":391,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":74,"y":44,"w":391,"h":265},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_13.png":
+{
+	"frame": {"x":397,"y":1084,"w":388,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":48,"w":388,"h":260},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_14.png":
+{
+	"frame": {"x":397,"y":1348,"w":387,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":49,"w":387,"h":258},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_15.png":
+{
+	"frame": {"x":394,"y":817,"w":387,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":43,"w":387,"h":263},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_16.png":
+{
+	"frame": {"x":1592,"y":2,"w":386,"h":271},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":34,"w":386,"h":271},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"03_FoxRunCycle_loop/FoxRunCycle-Loop_17.png":
+{
+	"frame": {"x":2,"y":582,"w":387,"h":279},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":71,"y":25,"w":387,"h":279},
+	"sourceSize": {"w":543,"h":331},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "hq_runningLoop_0.png",
+	"format": "RGBA5555",
+	"size": {"w":1980,"h":1655},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1159516e9b1c69b24894e6ab63a070ec:5ce0c847f7afe5e7a815704ee832f875:7c2126b99d49db4ef34beaa71ef96ea5$"
+}
+}

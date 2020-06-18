@@ -1,0 +1,341 @@
+.fontPreloader { font-family:'JMyriadBold'}
+
+.modal-window-modal-settings
+{
+    position: fixed;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    pointer-events: auto;
+    z-index: 100;
+}
+
+.modal-window-wrapper-settings
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 301;
+}
+
+
+#modal-window-autoplay-setting-parent {
+    color: #FFFFFF;
+    border-radius: 0.5em;
+    display: inline-block;
+    position: fixed;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    min-width: 25em;
+}
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    
+    #modal-window-autoplay-setting-parent {
+        position: absolute;
+    }
+}
+#modal-window-autoplay-setting {
+    overflow: hidden;
+    pointer-events: none;
+    display: none;
+}
+.autoplay-setting-panel {
+    pointer-events: none;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+}
+.autoplaysetting_ul {
+    border-spacing: 0.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: auto;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    background-image: url(../text/resources/_modules/autoplay-manager/img/autoplay_assets/transbg.png);
+    text-align: center;
+}
+.autoplay-section-container {
+    margin-top: 1em;
+}
+.autoplay-section-container ul {
+    display: table;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-spacing: 1.2em;
+    border-collapse: separate;
+    margin-top: -0.5em;
+}
+.autoplay-section-container ul li {
+    display: table-cell;
+    text-align: center;
+    background-color: #a7a9ac;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 0.3em;
+    color: #000;
+    font-family: 'JMyriadBold';
+}
+.autoplay-section-container ul li {
+    width: 5em;
+    height: 2.5em;
+    min-height: 2.5em;
+    max-height: 2.5em;
+    min-width: 5em;
+    max-width: 5em;
+    cursor: pointer;
+}
+#autoplay-countlist-container .select,
+#autoplay-winlist-container .select,
+#autoplay-losslist-container .select {
+    cursor: pointer;
+    background-color: #06d706;
+    color: #fff;
+}
+#autoplay-countlist-main,
+#autoplay-losslist-container-main,
+#autoplay-winlist-container-main {
+    position: relative;
+}
+
+
+
+.autoplay-section-overlay {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.autoplay-section-container ul li div {
+    font-size: 1.1em;
+    max-width: 8em;
+    max-height: 2.2em;
+    padding-top: 2px;
+}
+ 
+.autoplay_setting_title_sub,
+.autoplay_setting_title {
+    font-size: 1.2em;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: default;
+}
+.autoplay_setting_title_sub {
+    font-size: 0.9em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.autoplay_setting_title {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    height: 2.5em;
+    background: #000;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 0.1em solid #999;
+    font-size: 1em;
+}
+.autoplay_setting_title>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+#autoplay-btm-btns-container {
+    width: 100%;
+    height: 4.5em;
+}
+.button-outter {
+    width: 40%;
+    height: 100%;
+}
+.button-outter-right {
+    float: right;
+    padding-right: 10%;
+}
+.button-outter-left {
+    float: left;
+    padding-left: 10%;
+}
+#autoplay-setting-button-cancel-label{
+ padding-top: 2px;
+}
+
+
+.button-middle {
+    display: table;
+    width: 75%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    font-family: 'JMyriadBold';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.disableState {
+    cursor: default;
+    background-color: #A8A9AB;
+}
+.enableState {
+    cursor: pointer;
+    background-color: #058605;
+}
+#autoplay-setting-button-ok-label {
+    font-size: 1.2em;
+    padding-top: 2px;
+}
+.cancelDefaultState {
+    background-color: #810f22;
+    cursor: pointer;
+}
+.button-inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 2.3em;
+    border-radius: 0.25em;
+    color: #fff;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 480px) and (orientation: portrait){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-width: 640px) and (orientation: landscape){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-width: 640px){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-width: 320px) and (-webkit-min-pixel-ratio: 2){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-pixel-ratio: 2){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-height: 667px) and (min-width: 375px) and (-webkit-min-pixel-ratio: 3){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+
+
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .autoplay-setting-panel { 
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Safari */
+        transform: scale(0.9);
+    }
+}
+.arrow-down{
+    width: 0;
+    height: 0;
+    border-left: 0.4em solid transparent;
+    border-right: 0.4em solid transparent;
+    border-top: 0.5em solid #058605;
+}
+.arrow-down-disable{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 0.4em solid transparent;
+    border-right: 0.4em solid transparent;
+    border-top: 0.5em solid #fff;
+    margin-top: -1em;
+}
+.arrow-down-holder{
+    /* float: left; */
+    margin-top: 2px;
+    display: inline-block;
+}
+#autoplay-expander-container-main{
+    width: 100%;
+    height: 1.7em;
+    margin-top: -0.5em;
+    cursor: pointer;
+}
+#autoplay_expander_txt{
+    /* float: left; */
+    display: inline-block;
+    font-size: 0.55em;
+    letter-spacing: 0.5px;
+}
+#autoplay-losswin-container-main{
+    display: none;
+}
+#autoplay-expander-container-opened{
+    display: none;
+    width: 100%;
+    height: 1.7em;
+    cursor: default;
+}
+.divider{
+    border-top: 0.1em solid #999;
+    /* margin: 0; */
+}
+.divider>div{
+    /* border-top: 0.1em solid #999; */
+    margin: -0.4em;
+    /* display: table; */
+}
+
+

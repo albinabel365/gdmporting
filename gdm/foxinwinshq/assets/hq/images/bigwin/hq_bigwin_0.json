@@ -1,0 +1,408 @@
+{"frames": {
+
+"coins_anim_01.png":
+{
+	"frame": {"x":1013,"y":2,"w":117,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":117,"h":116},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_02.png":
+{
+	"frame": {"x":979,"y":481,"w":100,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":3,"w":100,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_03.png":
+{
+	"frame": {"x":222,"y":668,"w":74,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":74,"h":120},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_04.png":
+{
+	"frame": {"x":1038,"y":1086,"w":66,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":3,"w":66,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_05.png":
+{
+	"frame": {"x":1038,"y":844,"w":72,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":3,"w":72,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_06.png":
+{
+	"frame": {"x":757,"y":1679,"w":83,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":3,"w":83,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_07.png":
+{
+	"frame": {"x":521,"y":1669,"w":102,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":3,"w":102,"h":116},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_08.png":
+{
+	"frame": {"x":521,"y":1798,"w":114,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":3,"w":114,"h":115},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_09.png":
+{
+	"frame": {"x":1013,"y":122,"w":117,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":117,"h":115},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_10.png":
+{
+	"frame": {"x":394,"y":1669,"w":123,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":123,"h":115},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_11.png":
+{
+	"frame": {"x":1013,"y":241,"w":106,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":3,"w":106,"h":116},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_12.png":
+{
+	"frame": {"x":1038,"y":602,"w":87,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":3,"w":87,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_13.png":
+{
+	"frame": {"x":300,"y":668,"w":74,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":74,"h":120},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_14.png":
+{
+	"frame": {"x":1060,"y":1207,"w":66,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":3,"w":66,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_15.png":
+{
+	"frame": {"x":1038,"y":965,"w":72,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":3,"w":72,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_16.png":
+{
+	"frame": {"x":1038,"y":723,"w":83,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":3,"w":83,"h":117},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_17.png":
+{
+	"frame": {"x":979,"y":361,"w":102,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":3,"w":102,"h":116},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_18.png":
+{
+	"frame": {"x":639,"y":1798,"w":114,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":3,"w":114,"h":115},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_19.png":
+{
+	"frame": {"x":627,"y":1679,"w":117,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":117,"h":115},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"coins_anim_20.png":
+{
+	"frame": {"x":394,"y":1788,"w":123,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":123,"h":115},
+	"sourceSize": {"w":128,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionA/MinionA-Celebrate_00.png":
+{
+	"frame": {"x":2,"y":2,"w":216,"h":391},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":1,"w":216,"h":391},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionA/MinionA-Celebrate_01.png":
+{
+	"frame": {"x":2,"y":792,"w":206,"h":372},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":11,"w":206,"h":372},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionA/MinionA-Celebrate_02.png":
+{
+	"frame": {"x":630,"y":676,"w":194,"h":349},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":19,"w":194,"h":349},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionA/MinionA-Celebrate_03.png":
+{
+	"frame": {"x":828,"y":676,"w":206,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":25,"w":206,"h":316},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionA/MinionA-Celebrate_04.png":
+{
+	"frame": {"x":412,"y":1372,"w":212,"h":293},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":30,"w":212,"h":293},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionA/MinionA-Celebrate_05.png":
+{
+	"frame": {"x":844,"y":1316,"w":212,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":32,"w":212,"h":288},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionB/MinionB-Celebrate_00.png":
+{
+	"frame": {"x":2,"y":397,"w":216,"h":391},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":1,"w":216,"h":391},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionB/MinionB-Celebrate_01.png":
+{
+	"frame": {"x":2,"y":1168,"w":206,"h":372},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":11,"w":206,"h":372},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionB/MinionB-Celebrate_02.png":
+{
+	"frame": {"x":630,"y":1029,"w":194,"h":349},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":19,"w":194,"h":349},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionB/MinionB-Celebrate_03.png":
+{
+	"frame": {"x":828,"y":996,"w":206,"h":316},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":25,"w":206,"h":316},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionB/MinionB-Celebrate_04.png":
+{
+	"frame": {"x":628,"y":1382,"w":212,"h":293},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":30,"w":212,"h":293},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionB/MinionB-Celebrate_05.png":
+{
+	"frame": {"x":844,"y":1608,"w":212,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":32,"w":212,"h":288},
+	"sourceSize": {"w":281,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionC/MinionC-Celebrate_00.png":
+{
+	"frame": {"x":2,"y":1544,"w":192,"h":361},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":3,"w":192,"h":361},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionC/MinionC-Celebrate_01.png":
+{
+	"frame": {"x":212,"y":792,"w":196,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":11,"w":196,"h":350},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionC/MinionC-Celebrate_02.png":
+{
+	"frame": {"x":412,"y":676,"w":214,"h":344},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":16,"w":214,"h":344},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionC/MinionC-Celebrate_03.png":
+{
+	"frame": {"x":489,"y":338,"w":241,"h":334},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":24,"w":241,"h":334},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionC/MinionC-Celebrate_04.png":
+{
+	"frame": {"x":489,"y":2,"w":258,"h":332},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":24,"w":258,"h":332},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionC/MinionC-Celebrate_05.png":
+{
+	"frame": {"x":222,"y":2,"w":263,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":26,"w":263,"h":329},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionD/MinionD-Celebrate_00.png":
+{
+	"frame": {"x":198,"y":1544,"w":192,"h":361},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":3,"w":192,"h":361},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionD/MinionD-Celebrate_01.png":
+{
+	"frame": {"x":212,"y":1146,"w":196,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":11,"w":196,"h":350},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionD/MinionD-Celebrate_02.png":
+{
+	"frame": {"x":412,"y":1024,"w":214,"h":344},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":16,"w":214,"h":344},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionD/MinionD-Celebrate_03.png":
+{
+	"frame": {"x":734,"y":338,"w":241,"h":334},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":24,"w":241,"h":334},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionD/MinionD-Celebrate_04.png":
+{
+	"frame": {"x":751,"y":2,"w":258,"h":332},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":24,"w":258,"h":332},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"MinionD/MinionD-Celebrate_05.png":
+{
+	"frame": {"x":222,"y":335,"w":263,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":26,"w":263,"h":329},
+	"sourceSize": {"w":281,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "hq_bigwin_0.png",
+	"format": "RGBA5555",
+	"size": {"w":1132,"h":1915},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:48a66bbfb41ecde288cece8d424a59e6:0438d6bec52ca2885d3eaf82fe6daa58:c427afa9cadeddd1a4f9ba8e61b19740$"
+}
+}

@@ -1,0 +1,262 @@
+.modal-window-modal
+{
+    position: fixed;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    pointer-events: auto;
+    z-index: 300;
+}
+
+.modal-window-wrapper
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 301;
+}
+
+.modal-window
+{
+    display:none;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    font-size: 0.8em;
+    pointer-events: auto;
+}
+
+.fixed-modal-window
+{
+    display:none;
+    width: 100%;
+    height: 100%;
+
+    position:fixed;
+    top: 0px;
+    font-size: 0.8em;
+    pointer-events: auto;
+}
+
+.modal-window-rotatedevice
+{
+    display: none;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,1);
+    color: #FFFFFF;
+}
+
+.fixed-modal-window-rotatedevice
+{
+    display: none;
+    position: fixed;
+    pointer-events: none;
+    top: 0px;
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+}
+.modal-window-rotatedevice-body
+{
+    pointer-events: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.modal-window-body
+{
+    background-color: rgba(0,0,0,0.8);
+    color: #FFFFFF;
+    border-radius: 0.5em;
+    display: inline-block;
+    position: absolute;
+    padding: 1em;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    max-width: 25em;
+    min-width: 20em;
+}
+
+.modal-window-body-value-text
+{
+    /* left: 6em; */
+    /* right: 1em; */
+    /* top: 2.5em; */
+    /* bottom: 3em; */
+    /* position: absolute; */
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.modal-window-title-value-text
+{
+    /* left: 6em; */
+    /* right: 1em; */
+    /* top: 1em; */
+    text-align: center;
+    /* position: absolute; */
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    /* float: right; */
+}
+
+
+.modal-info-icon,
+.modal-warning-icon,
+.modal-error-icon,
+.modal-icon
+{
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 4em;
+    height: 4em;
+    /* position: absolute; */
+    /* top: 2.5em; */
+    /* left: 1em; */
+    /* display: inline-block; */
+    float: left;
+}
+
+.modal-error-icon
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icon_error.svg);
+}
+
+.modal-warning-icon
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icon_warning.svg);
+}
+
+.modal-info-icon
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icon_info.svg);
+}
+
+.modal-rotatedevice-icon
+{
+    
+    background-image: url(../image/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/rotatedevice-logo.png);
+                          
+    background-repeat: no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    
+    background-position: center center;
+    width: 8em;
+    height: 30em;
+    display: inline-block;
+
+    -moz-animation: rotate 2s ease-in-out infinite;
+    -o-animation: rotate 2s ease-in-out infinite;
+    -webkit-animation: rotate 2s ease-in-out infinite;
+    animation: rotate 2s ease-in-out infinite;
+
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+
+}
+
+@media screen and (orientation: landscape) {
+    .modal-rotatedevice-icon {
+        animation-direction: reverse;
+    }
+}
+
+.modal-window-button-1,
+.modal-window-button-2,
+.modal-window-button
+{
+    display: inline;
+    border-style: solid;
+    border-color: #525252;
+    border-radius: 0.4em;
+    border-width: 0.1em;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    /* width: 9em; */
+    /* height: 2.2em; */
+    font-size: 0.8em;
+    padding: 1em;
+    font-family: JMyriad;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: JMyriad;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    float: right;
+}
+
+.modal-window-button-1
+{
+    /* position: absolute; */
+    /* bottom: 1em; */
+    /* right: 3em; */
+}
+
+.modal-window-button-2
+{
+    /* position: absolute; */
+    /* bottom: 1em; */
+    /* right: 13em; */
+}
+
+@keyframes rotate
+{
+    100%
+    {
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+}
+@-webkit-keyframes rotate
+{
+    100%
+    {
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+}
+@-moz-keyframes rotate
+{
+    100%
+    {
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+}

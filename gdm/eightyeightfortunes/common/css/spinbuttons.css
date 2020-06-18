@@ -1,0 +1,28 @@
+/* bottom, right is set in @media */
+.spin-button
+{
+	background: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/spin_button.svg);
+}
+
+/* bottom, left is set in @media */
+.spin-button-auto
+{
+	background: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/spin_button_auto.svg);
+}
+
+/* bottom, left is set in @media */
+.spin-button-auto-stop
+{
+	background: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/spin_button_auto_stop.svg);
+}
+
+.spin-button, 
+.spin-button-auto,
+.spin-button-auto-stop
+{
+	position: fixed;
+	display: none;
+	height: 5em;	
+	width: 5em;
+	background-size: cover;
+}

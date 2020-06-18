@@ -1,0 +1,228 @@
+{
+  "frames" : {
+    "resources/atlas/bowlexplode/09" : {
+      "frame" : {
+        "x" : 515,
+        "y" : 5,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/08" : {
+      "frame" : {
+        "x" : 770,
+        "y" : 369,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/07" : {
+      "frame" : {
+        "x" : 515,
+        "y" : 187,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/06" : {
+      "frame" : {
+        "x" : 260,
+        "y" : 5,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/05" : {
+      "frame" : {
+        "x" : 515,
+        "y" : 369,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/04" : {
+      "frame" : {
+        "x" : 260,
+        "y" : 187,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/15" : {
+      "frame" : {
+        "x" : 1025,
+        "y" : 5,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/03" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 5,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/14" : {
+      "frame" : {
+        "x" : 1280,
+        "y" : 369,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/02" : {
+      "frame" : {
+        "x" : 260,
+        "y" : 369,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/13" : {
+      "frame" : {
+        "x" : 1025,
+        "y" : 187,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/01" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 187,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/12" : {
+      "frame" : {
+        "x" : 770,
+        "y" : 5,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/00" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 369,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/11" : {
+      "frame" : {
+        "x" : 1025,
+        "y" : 369,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/bowlexplode/10" : {
+      "frame" : {
+        "x" : 770,
+        "y" : 187,
+        "w" : 245,
+        "h" : 172
+      },
+      "sourceSize" : {
+        "w" : 500,
+        "h" : 350
+      },
+      "rotated" : false,
+      "page" : 0
+    }
+  }
+}

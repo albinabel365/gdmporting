@@ -1,0 +1,65 @@
+body {
+    background: black !important;
+}
+
+.top-bar-info {
+    top: 0 !important;
+}
+
+#top-bar-menu-button {
+    bottom: 60%;
+    left: -1%;
+}
+
+.modal-window-wrapper {
+    z-index: 1001 !important;
+}
+
+#top-bar-menu-button {
+    bottom: 48%;
+    left: -999px;
+}
+#top-bar-help-button {
+	left: 0%;
+    bottom: auto;
+    top: 8%;
+    background-image: url("../images/icons_information.svg") !important;
+	display: none !important;
+}
+
+.progress-bar-modal {
+	background-image: url('../images/loader.jpg') !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.progress-bar-logo {
+	display: none !important;
+}
+
+.progress-bar-container{
+	top: 70% !important;
+    width: 35% !important;
+}
+@media screen and (orientation: portrait){
+	#modal-window-rotatedevice{
+		display:block !important;
+	}
+	.modal-rotatedevice-icon {
+		-moz-animation: rotate 2s ease-in-out infinite;
+		-o-animation: rotate 2s ease-in-out infinite;
+		-webkit-animation: rotate 2s ease-in-out infinite;
+		animation: rotate 2s ease-in-out infinite;
+		
+		-moz-animation-play-state: running;
+		-o-animation-play-state: running;
+		-webkit-animation-play-state: running;
+		animation-play-state: running;
+	}
+}
+@media screen and (orientation: landscape){
+	#modal-window-rotatedevice{
+		display:none !important;		
+	}
+}

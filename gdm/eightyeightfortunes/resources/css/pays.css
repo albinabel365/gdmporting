@@ -1,0 +1,344 @@
+div.pays-element-wrapper,
+div.pays-element-wrapper div,
+div.pays-element-wrapper ul,
+div.pays-element-wrapper-sym,
+div.pays-element-wrapper-sym div,
+div.pays-element-wrapper-sym ul
+{
+    float: left;
+}
+
+div.paytablePage img
+{
+    width: 50%;
+    margin-left: 1%;
+}
+
+div.paytablePage
+{
+    text-align: center;
+}
+
+div.pays-element-wrapper
+{
+    width: 33%; /*47.8%;*/
+    margin: 2% 0;
+}
+
+/** Small screen Device */
+@media (max-width: 736px) {
+    div.pays-element-wrapper {
+        width: 47.8%;
+    }    
+}
+
+div.pays-element-wrapper-sym
+{
+    width: 47.8%;
+    margin-right: 0%;
+}
+
+div.pays-element-wrapper div
+{
+    width: 33%;
+    margin-left: 10%;
+}
+div.pays-element-wrapper-sym div
+{
+    width: 33%;
+    margin-left: 10%;
+}
+
+div.pays-element-wrapper ul,
+div.pays-element-wrapper-sym ul
+{
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: .5px;
+    /*-webkit-margin-before: 1.0em;*/
+    margin: 0%;
+    margin-left: 4%;
+}
+
+div.pays-element-wrapper ul.FourPayValue,
+div.pays-element-wrapper-sym ul.FourPayValue
+{
+    -webkit-margin-before: .3em;
+}
+
+div.pays-element-wrapper span,
+div.pays-element-wrapper-sym span
+{
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+div.pays-element-wrapper canvas,
+div.pays-element-wrapper-sym canvas
+{
+    display: block;
+    width: 100%;
+}
+
+.description
+{
+    margin: 0 auto;
+    width: 70%;
+}
+
+div.paytablePage
+{
+    clear: both;
+    padding-bottom: 2%
+}
+
+div.paytableText {
+    clear: both;
+}
+
+/*
+div.scrollArrow
+{
+    background-image: url(game/${gamecode}/asset/_modules/help-and-pays/down.svg?resourceversion=4.72.0.2-1564155912) !important;
+    width: 2%;
+    padding-bottom: 1.5%;
+    background-repeat: no-repeat !important;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: 54%;
+    background-size: contain;
+    position: fixed;
+    right: 8%;
+    top: 80%;
+    cursor: pointer;
+    z-index: 999;
+}
+*/
+
+/**************************************
+        RULES FOR UNIQUE FEATURES
+***************************************/
+
+
+/* COVERED SYMBOLS AND GENERIC UNIQUE PAGES FOR KRONOS AND AQ*/
+div.uniqueElementWrapper,
+div.coveredSymbolsWrapper
+{
+    width: 83.5% !important;
+    margin-left: 10%;
+    height: 15.1%;
+}
+
+div.coveredSymbolsWrapper
+{
+    margin-left: 20.4%;
+    height: 40%;
+}
+
+div.coveredSymbolsWrapper div.suitHolder
+{
+    margin-left: 10.4% !important;
+}
+
+div.uniqueElementWrapper:after
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0em;
+    content: " ";
+    clear: both;
+    height: 0px;
+}
+
+div.uniqueElementList
+{
+/*    position: absolute;
+    left: 41.5%;
+    top: 0;
+    width: 100%;
+    height: 100%;*/
+
+    top 0;
+    margin-top: -21%;
+    margin-left: 48%;
+}
+
+div.uniqueElementList ul
+{
+    height: 100%;
+}
+
+div.uniqueElementList ul li
+{
+    text-align: center;
+    height: 31%;
+    list-style-type: none;
+    margin-top: 100%;
+}
+
+div.uniqueElementListHorizontal
+{
+    margin-left: 10%;
+    width: 83.5%;
+    margin-top: 0 !important;
+}
+
+div.uniqueElementListHorizontal ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center !important;
+}
+
+div.uniqueElementListHorizontal ul li
+{
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    margin-left: 3.8%;
+}
+
+div.uniqueElementListHorizontal ul li:last-child
+{
+    width: 40%;
+}
+
+div.uniqueElementWrapper div.suitHolder
+{
+    width: 71%;
+}
+
+div.uniqueElementWrapper div.suitHolder,
+div.uniqueElementWrapper div.suitHolder div
+{
+    margin-left: 0 !important;
+    float: left;
+}
+
+div.uniqueElementWrapper div.suitHolder div
+{
+    margin-left: 10%;
+}
+
+div.uniqueElementWrapper div.suitHolder div canvas,
+div.uniqueElementWrapper div.suitHolder div div
+{
+    float: none;
+    width: 97%;
+    height: 67%;
+}
+
+div.uniqueElementWrapper div.suitHolder div div
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+    font-size: .6em;
+}
+
+div.uniqueElementWrapper div.suitHolder div.suitDescription
+{
+    width: 100%;
+    margin-top: 4%;
+    font-size: .6em;
+}
+
+div.uniqueElementWrapper div.symbolsHolder
+{
+    margin-right: 32%;
+}
+
+div.uniqueElementWrapper div canvas
+{
+    width: 11.7%;
+    float: left;
+    height: 100%;
+}
+
+div.uniqueElementWrapper div.reverse
+{
+    margin-right: 0 !important;
+    margin-left: 32%;
+}
+
+div.uniqueElementWrapper div.reverse canvas
+{
+    float: right;
+}
+
+.uniqueTextOutput
+{
+    clear: both;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+
+.uniqueTextOutput span,
+.uniqueTextOutput canvas
+{
+    float: left;
+}
+
+.uniqueTextOutput span
+{
+    width: 85%;
+    text-align: left !important;
+    margin-left: 1%;
+    margin-top: .6%;
+}
+
+.uniqueTextOutput canvas
+{
+    width: 8%;
+}
+
+/* LANCELOT */
+div.canvasStackWrapper
+{
+    height: 83% !important;
+}
+
+.canvasStack
+{
+    float: left;
+    margin-left: 3.8%;
+    width: 20%;
+}
+
+.canvasStack:last-child
+{
+    width: 40%;
+}
+
+.canvasStack canvas
+{
+    display: block !important;
+    width: 100% !important;
+    height: 33% !important;
+    float: none !important;
+}
+
+.canvasStack div
+{
+    float: left;
+    width: 50%;
+}
+
+div.canvasStackWrapper div.mixedHeader
+{
+    width: 83.5%;
+    margin-left: 3.8%;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    text-align: left !important;
+}
+
+div.canvasStackWrapper div.mixedHeader span
+{
+    margin-left: 79.2%;
+    font-size: 60%;
+}

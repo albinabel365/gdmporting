@@ -1,0 +1,87 @@
+​ #####GAME_INTERACTION-WindowObj get scroll mode and get anonymous mode
+​ #####GAME_INTERACTION-WindowObj at get size to set canvas size
+​ #####GAME_INTERACTION-WindowObj sett key up event listener??
+​ #####GAME_INTERACTION-WindowObj at quality check for asset loading
+​ #####GAME_INTERACTION-WindowObj at scroll to
+​ #####GAME_INTERACTION-WindowObj wrapper API metrics
+​ #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+​ #####GAME_INTERACTION-WindowObj at get quality for getUI
+​ #####GAME_INTERACTION-WindowObj message to server INIT
+​ #####GAME_INTERACTION-WindowObj update progress
+​ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+game_min.js:19537 #####GAME_INTERACTION-WindowObj at wrapper api metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:19540 #####GAME_INTERACTION-WindowObj at message to server REELSTRIP
+game_min.js:25437 #####GAME_INTERACTION-WindowObj audio button visibility check
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed MUTE false
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed MUTE false
+game_min.js:12711 #####GAME_INTERACTION-WindowObj at check JackpotSupported
+game_min.js:29864 #####GAME_INTERACTION-WindowObj game ready
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=495b091d-73e0-4cbf-8457-95a283910a3b&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:727 #####WRAPPER_INTERACTION-GameIFrame API Ext SHOW_HOME_BUTTON
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=495b091d-73e0-4cbf-8457-95a283910a3b&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:758 #####WRAPPER_INTERACTION-GameIFrame API Ext SET_MAX_AUTOPLAYS
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=495b091d-73e0-4cbf-8457-95a283910a3b&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:760 #####WRAPPER_INTERACTION-GameIFrame API Ext AUTO_PLAY_STOPOPTIONS 0
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=495b091d-73e0-4cbf-8457-95a283910a3b&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:768 #####WRAPPER_INTERACTION-GameIFrame API Ext SHOW_HOME_BUTTON false
+mobile.js:99 #####WRAPPER_INTERACTION-GameIFrame android orientation change
+game_min.js:19109 #####GAME_INTERACTION-WindowObj at get size at change orientation
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 0
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2086490877
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_BET 500
+game_min.js:22599 #####GAME_INTERACTION-WindowObj check quick stop for spin button
+game_min.js:22622 #####GAME_INTERACTION-WindowObj at button draw check quick stop
+game_min.js:22632 #####GAME_INTERACTION-WindowObj at button draw quick stop check
+
+game_min.js:10905 #####GAME_INTERACTION-WindowObj at canBet to check lowBalanceCheck
+game_min.js:22599 #####GAME_INTERACTION-WindowObj check quick stop for spin button
+game_min.js:22622 #####GAME_INTERACTION-WindowObj at button draw check quick stop
+game_min.js:22632 #####GAME_INTERACTION-WindowObj at button draw quick stop check
+
+
+Load Error
+----------------------
+game_min.js:18118 #####GAME_INTERACTION-WindowObj get scroll mode and get anonymous mode
+game_min.js:18124 #####GAME_INTERACTION-WindowObj at get size to set canvas size
+game_min.js:23574 #####GAME_INTERACTION-WindowObj sett key up event listener??
+game_min.js:26257 #####GAME_INTERACTION-WindowObj at quality check for asset loading
+​ #####GAME_INTERACTION-WindowObj at scroll to
+​ #####GAME_INTERACTION-WindowObj wrapper API metrics
+​ #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+​ #####GAME_INTERACTION-WindowObj at get quality for getUI
+​ #####GAME_INTERACTION-WindowObj message to server INIT
+​ #####GAME_INTERACTION-WindowObj update progress
+​ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+game_min.js:18296 #####GAME_INTERACTION-WindowObj at delegate error handling
+
+
+Load Error - BALANCE
+game_min.js:18118 #####GAME_INTERACTION-WindowObj get scroll mode and get anonymous mode
+game_min.js:18124 #####GAME_INTERACTION-WindowObj at get size to set canvas size
+game_min.js:23574 #####GAME_INTERACTION-WindowObj sett key up event listener??
+game_min.js:26257 #####GAME_INTERACTION-WindowObj at quality check for asset loading
+game_min.js:20553 #####GAME_INTERACTION-WindowObj at scroll to
+game_min.js:19528 #####GAME_INTERACTION-WindowObj wrapper API metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:19531 #####GAME_INTERACTION-WindowObj message to server INIT
+game_min.js:25432 #####GAME_INTERACTION-WindowObj update progress
+ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+game_min.js:19537 #####GAME_INTERACTION-WindowObj at wrapper api metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:19540 #####GAME_INTERACTION-WindowObj at message to server REELSTRIP
+game_min.js:25437 #####GAME_INTERACTION-WindowObj audio button visibility check
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed MUTE false
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed MUTE false
+game_min.js:12711 #####GAME_INTERACTION-WindowObj at check JackpotSupported
+game_min.js:29864 #####GAME_INTERACTION-WindowObj game ready
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=cf826230-4ab9-44c6-830c-689cd305a629&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:727 #####WRAPPER_INTERACTION-GameIFrame API Ext SHOW_HOME_BUTTON
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=cf826230-4ab9-44c6-830c-689cd305a629&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:758 #####WRAPPER_INTERACTION-GameIFrame API Ext SET_MAX_AUTOPLAYS
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=cf826230-4ab9-44c6-830c-689cd305a629&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:760 #####WRAPPER_INTERACTION-GameIFrame API Ext AUTO_PLAY_STOPOPTIONS 0
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=cf826230-4ab9-44c6-830c-689cd305a629&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:768 #####WRAPPER_INTERACTION-GameIFrame API Ext SHOW_HOME_BUTTON false
+mobile.js:99 #####WRAPPER_INTERACTION-GameIFrame android orientation change
+game_min.js:19109 #####GAME_INTERACTION-WindowObj at get size at change orientation
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 0
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 0
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_BET 500
+game_min.js:18296 #####GAME_INTERACTION-WindowObj at delegate error handling
+gcmwrapper.html?envid=eur&dev=1&gameid=foxinwinshq&operatorid=5&sessionid=cf826230-4ab9-44c6-830c-689cd305a629&currency=SEK&lang=&mode=real&secure=true&type=nextgen&clock=true&device=mobile&lobbyurl=https://ogs-gcm-eu-dev.nyxop.net/gcm-lobby/launch.html&depositurl=&quality=hq&ogsgameid=70233&nyxroot=nogs-gdm-stage.nyxmalta.com/nextgen/&:584 #####WRAPPER_INTERACTION-GameIFrame API Ext SET_BALANCE

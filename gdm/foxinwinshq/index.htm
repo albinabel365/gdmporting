@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foxin' Wins</title>
+	 <script type="text/javascript">
+			var GAME_ID = 505;
+			var gDate = new Date();
+			var gLoadTimeStart = gDate.getTime();
+	  </script>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta id="viewport" name='viewport'/>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" id="commoncss"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png"/>
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+
+    <script>
+        (function (doc) {
+            if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+                doc.getElementById("commoncss").setAttribute("href", "./common3.css")
+            } else if (navigator.userAgent.match(/iPad/i)) {
+                doc.getElementById("commoncss").setAttribute("href", "./common3_ipad.css")
+            } else {
+                doc.getElementById("commoncss").setAttribute("href", "./common3_ipad.css")
+            }
+        }(document));
+    </script>
+
+</head>
+
+
+<body bgcolor="#000000" onLoad="load()" class="bdCSS">
+    <div class="fontsPreloading">
+        <span style="font-family: 'Griffon';">Griffon</span>
+    </div>
+    <div class="fontsPreloading">
+        <span style="font-family: 'Nougat';">Nougat</span>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <div class="bufferedbg"></div>
+    <div id="popup"></div>
+
+    <div id="game" style="margin:0px auto; visibility:hidden;">
+        <canvas id='c' width="960" height="560"></canvas>
+    </div>
+
+		<script src="game_min.js"></script>
+
+
+
+
+
+
+
+    <!--<div>
+        <div id="backdrop" class="backdrop"></div>-->
+        <div id="help" style="display:none;" class="divhelp"></div>
+    <!--</div>-->
+
+</body>
+</html>

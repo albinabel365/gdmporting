@@ -1,0 +1,345 @@
+@media screen and (orientation: portrait)
+{
+	.spin-button
+	{
+		bottom: 4em;
+		right: 1em;
+	}
+
+	.spin-button-auto-stop,
+	.spin-button-auto
+	{
+		bottom: 4em;
+		left: 1em;
+	}
+
+	/* move up the game-container when the topbar disappears*/
+	.game-container{
+		top: 0em;
+		bottom: 0em;
+	}
+
+	.game-background-container{
+		top: 0em;
+		bottom: 4em;
+	}
+
+	.bottom-bar-background
+	{
+		display: block;
+	}
+
+	.bottom-bar
+	{
+		bottom: 1.0em;
+		height: 2.2em;
+	}
+
+	.bottom-bar-inner-button-container-responsive{
+		display: none;
+	}
+
+	.landscape-logo
+	{
+		display: none;
+	}
+
+	.bottom-totalbet
+	{
+		display: block;
+	}
+
+	.top-bar-logo
+	{
+		display: block;
+	}
+
+	.status-bar-totalbet{
+		display: none;
+	}
+
+	.bet-bubble-container
+	{
+		bottom: 4.0em;
+	}
+
+	.bet-bubble-bet-per-line:after
+	{
+		bottom: -1em;
+		border-width: 1em 1em 0em;
+	}
+
+	.bet-bubble-bet-lines:after
+	{
+		bottom: -1em;
+		border-width: 1em 1em 0em;
+	}
+
+	.slow-connection-container
+	{
+		top: 3.8em;
+	}
+
+    .modal-window-rotatedevice
+    {
+        display: block;
+    }
+    .modal-rotatedevice-icon
+    {
+        -moz-animation: rotate 2s ease-in-out infinite;
+        -o-animation: rotate 2s ease-in-out infinite;
+        -webkit-animation: rotate 2s ease-in-out infinite;
+        animation: rotate 2s ease-in-out infinite;
+    }
+}
+
+@media screen and (orientation: landscape)
+{
+	.spin-button {
+		right: 0.5em;
+		bottom: 4em;
+	}
+
+	.spin-button-auto-stop,
+	.spin-button-auto
+	{
+		left: 0.5em;
+		bottom: 4em;
+	}
+
+	.game-container {
+		top: 0em;
+		bottom: 0em;
+		left: 0em;
+		right: 0em;
+	}
+
+	.game-background-container{
+		top: 3.8em;
+		bottom: 0em;
+	}
+
+	.bottom-bar-inner-button-container-responsive{
+		display: inline-block;
+	}
+
+	.landscape-logo
+	{
+		display: inline-block;
+	}
+
+	.bottom-totalbet
+	{
+		display: none;
+	}
+
+	.top-bar-logo
+	{
+		display: none;
+	}
+
+	.bottom-bar-background
+	{
+		display: none;
+	}
+
+	.bottom-bar
+	{
+		top: 1.4em;
+	}
+
+	.bet-bubble-container
+	{
+		top: 5.0em;
+	}
+
+	.bet-bubble-bet-per-line:after
+	{
+		top: -1em;
+		border-width: 0em 1em 1em;
+	}
+
+	.bet-bubble-bet-lines:after
+	{
+		top: -1em;
+		border-width: 0em 1em 1em;
+	}
+
+	.slow-connection-container
+	{
+		bottom: 0;
+	}
+}
+
+/* Iphone 5 */
+
+@media screen and (orientation: portrait) and (min-height: 460px)
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		bottom: 6em;
+	}
+}
+
+/* Nexus 5 */
+
+@media screen and (orientation: portrait) and (min-height: 790px) /* and (min-width: 600px) */
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		height: 6em;
+		width: 6em;
+		bottom: 4.5em;
+	}
+
+	body
+	{
+		font-size: 18pt;
+	}
+}
+
+/* Nexus 7 */
+@media screen and (orientation: portrait) and (min-height: 793px)
+{
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 440px)
+{
+	body
+	{
+		font-size: 9pt;
+	}
+}
+
+@media screen and (orientation: landscape) and (min-height: 440px) /* and (min-width: 960px) */
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		height: 6em;
+		width: 6em;
+		bottom: 4.5em;
+	}
+
+	body
+	{
+		font-size: 18pt;
+	}
+}
+
+/* Ipad3 */
+
+@media screen and (orientation: portrait) and (min-height: 920px) /*  and (min-width: 760px) */
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		height: 6em;
+		width: 6em;
+		bottom: 4.5em;
+	}
+
+	.game-container {
+		left: 0em;
+		right: 0em;
+	}
+
+	body
+	{
+		font-size: 20pt;
+	}
+}
+
+@media screen and (orientation: landscape) and (min-height: 670px)  /* and (min-width: 1020px) */
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		height: 7em;
+		width: 7em;
+		bottom: 8em;
+	}
+
+	.game-container {
+		top: 0em;
+		bottom: 0em;
+	}
+
+	body
+	{
+		font-size: 20pt;
+	}
+}
+
+/* Desktop */
+
+@media screen and (orientation: landscape) and (min-height: 930px) /* and (min-width: 1280px) 1280*1024 */
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		height: 8em;
+		width: 8em;
+		bottom: 12em;
+	}
+
+	.game-container {
+		top: 0em;
+		bottom: 0em;
+		left: 0em;
+		right: 0em;
+	}
+
+	body
+	{
+		font-size: 20pt;
+	}
+}
+
+@media screen and (orientation: landscape) and (min-height: 1100px) /* 1920*1200 */
+{
+	.spin-button,
+	.spin-button-auto,
+	.spin-button-auto-stop
+	{
+		height: 8em;
+		width: 8em;
+		bottom: 15em;
+	}
+
+	.game-container {
+		top: 0em;
+		bottom: 0em;
+		left: 0em;
+		right: 0em;
+	}
+
+	body
+	{
+		font-size : 20pt;
+	}
+}
+/* iphone 6+ */
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+    { 
+        .spin-button, .bet-bubble-container {
+            position: absolute;
+        
+        }
+        .spin-button {
+            top: 49%;
+        }
+}

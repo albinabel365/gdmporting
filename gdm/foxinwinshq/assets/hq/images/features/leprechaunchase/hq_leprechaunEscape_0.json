@@ -1,0 +1,390 @@
+{"frames": {
+
+"LeprechaunEscape_100.png":
+{
+	"frame": {"x":495,"y":284,"w":135,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":149,"w":135,"h":72},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_101.png":
+{
+	"frame": {"x":265,"y":168,"w":130,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":137,"w":130,"h":84},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_102.png":
+{
+	"frame": {"x":373,"y":273,"w":118,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":120,"w":118,"h":101},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_103.png":
+{
+	"frame": {"x":2,"y":374,"w":122,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":91,"w":122,"h":130},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_104.png":
+{
+	"frame": {"x":265,"y":2,"w":130,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":59,"w":130,"h":162},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_105.png":
+{
+	"frame": {"x":2,"y":2,"w":134,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":41,"w":134,"h":180},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_106.png":
+{
+	"frame": {"x":2,"y":186,"w":130,"h":184},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":37,"w":130,"h":184},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_107.png":
+{
+	"frame": {"x":140,"y":2,"w":121,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":38,"w":121,"h":183},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_108.png":
+{
+	"frame": {"x":136,"y":189,"w":114,"h":178},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":43,"w":114,"h":178},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_109.png":
+{
+	"frame": {"x":399,"y":2,"w":109,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":53,"w":109,"h":168},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_110.png":
+{
+	"frame": {"x":512,"y":2,"w":105,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":63,"w":105,"h":158},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_111.png":
+{
+	"frame": {"x":621,"y":2,"w":107,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":92,"w":107,"h":129},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_112.png":
+{
+	"frame": {"x":636,"y":398,"w":113,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":123,"w":113,"h":98},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_113.png":
+{
+	"frame": {"x":399,"y":174,"w":118,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":126,"w":118,"h":95},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_114.png":
+{
+	"frame": {"x":1110,"y":2,"w":121,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":123,"w":121,"h":98},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_115.png":
+{
+	"frame": {"x":982,"y":2,"w":124,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":119,"w":124,"h":102},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_116.png":
+{
+	"frame": {"x":856,"y":2,"w":122,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":113,"w":122,"h":108},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_117.png":
+{
+	"frame": {"x":732,"y":2,"w":120,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":108,"w":120,"h":113},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_118.png":
+{
+	"frame": {"x":254,"y":256,"w":115,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":105,"w":115,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_119.png":
+{
+	"frame": {"x":521,"y":164,"w":110,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":105,"w":110,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_120.png":
+{
+	"frame": {"x":331,"y":378,"w":104,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":105,"w":104,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_121.png":
+{
+	"frame": {"x":946,"y":248,"w":99,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":105,"w":99,"h":116},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_122.png":
+{
+	"frame": {"x":1049,"y":241,"w":97,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":102,"w":97,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_123.png":
+{
+	"frame": {"x":636,"y":270,"w":97,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":97,"w":97,"h":124},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_124.png":
+{
+	"frame": {"x":737,"y":119,"w":101,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":93,"w":101,"h":128},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_125.png":
+{
+	"frame": {"x":842,"y":119,"w":100,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":92,"w":100,"h":129},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_126.png":
+{
+	"frame": {"x":230,"y":376,"w":97,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":96,"w":97,"h":125},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_127.png":
+{
+	"frame": {"x":753,"y":377,"w":96,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":101,"w":96,"h":120},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_128.png":
+{
+	"frame": {"x":1150,"y":234,"w":94,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":103,"w":94,"h":118},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_129.png":
+{
+	"frame": {"x":439,"y":378,"w":93,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":102,"w":93,"h":119},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_130.png":
+{
+	"frame": {"x":1053,"y":364,"w":93,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":98,"w":93,"h":123},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_131.png":
+{
+	"frame": {"x":1150,"y":104,"w":94,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":95,"w":94,"h":126},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_132.png":
+{
+	"frame": {"x":1049,"y":108,"w":97,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":92,"w":97,"h":129},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_133.png":
+{
+	"frame": {"x":635,"y":135,"w":98,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":90,"w":98,"h":131},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_134.png":
+{
+	"frame": {"x":946,"y":114,"w":99,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":91,"w":99,"h":130},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_135.png":
+{
+	"frame": {"x":128,"y":374,"w":98,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":92,"w":98,"h":129},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_136.png":
+{
+	"frame": {"x":536,"y":360,"w":96,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":95,"w":96,"h":126},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_137.png":
+{
+	"frame": {"x":953,"y":368,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":97,"w":96,"h":124},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_138.png":
+{
+	"frame": {"x":737,"y":251,"w":98,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":98,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_139.png":
+{
+	"frame": {"x":839,"y":252,"w":97,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":100,"w":97,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_140.png":
+{
+	"frame": {"x":853,"y":377,"w":96,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":100,"w":96,"h":121},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"LeprechaunEscape_141.png":
+{
+	"frame": {"x":1150,"y":356,"w":93,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":99,"w":93,"h":122},
+	"sourceSize": {"w":271,"h":254},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "hq_leprechaunEscape_0.png",
+	"format": "RGBA5555",
+	"size": {"w":1246,"h":506},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:eb16f7f5d716d6b2e715fa5869ffcaa3:50d516c85fccee196867ff71c6fa83cc:4ce19dee30033c41d59480db240a75fc$"
+}
+}

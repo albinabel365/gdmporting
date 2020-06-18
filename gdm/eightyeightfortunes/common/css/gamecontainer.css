@@ -1,0 +1,390 @@
+body
+{
+	margin: 0;
+	font-family: JMyriad;
+	font-size: 12pt;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color:black;
+}
+
+body#full-screen-body
+{
+    /*margin: 0;*/
+	/*font-family: JMyriad;*/
+	/*font-size: 12pt;*/
+	/*overflow: hidden;*/
+	width: 100vw;	
+	/*position: absolute;*/
+}
+
+#apple-scroller
+{
+	position: absolute;
+	z-index: 349;
+	height: 100000px;
+	top: -1000px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4) no-repeat;
+}
+
+#full-screen-mask
+{
+	z-index: 350;
+	height: 100%;
+	width: 100%;
+	display:none;
+	position:fixed;
+	text-align:center;
+	top:50%;
+}
+
+#full-screen-mask .swipe-up-arrow {
+	transform: translateY(-50%);
+}
+
+#full-screen-mask img.point
+{
+	width:51px;
+    height:56px;
+}
+
+#full-screen-mask img.shaft
+{
+	width:51px;
+    height:25px;
+}
+
+@media (min-height:375px) {
+	#full-screen-mask img.point
+	{
+		width:60px;
+	    height:66px;
+	}
+
+	#full-screen-mask img.shaft
+	{
+		width:60px;
+	    height:30px;
+	}
+}
+
+@media (min-height:414px) {
+	#full-screen-mask img.point
+	{
+		width:66px;
+	    height:72px;
+	}
+
+	#full-screen-mask img.shaft
+	{
+		width:66px;
+	    height:32px;
+	}
+}
+
+@media (min-height:568px) {
+	#full-screen-mask img.point
+	{
+		width:91px;
+	    height:99px;
+	}
+
+	#full-screen-mask img.shaft
+	{
+		width:91px;
+	    height:44px;
+	}
+}
+
+@media (min-height:667px) {
+	#full-screen-mask img.point
+	{
+		width:107px;
+	    height:117px;
+	}
+
+	#full-screen-mask img.shaft
+	{
+		width:107px;
+	    height:53px;
+	}
+}
+
+@media (min-height:736px) {
+	#full-screen-mask img.point
+	{
+		width:118px;
+	    height:129px;
+	}
+
+	#full-screen-mask img.shaft
+	{
+		width:118px;
+	    height:58px;
+	}
+}
+
+#full-screen-mask img
+{
+	animation-duration:1.5s;
+    animation-iteration-count:infinite;
+    vertical-align: middle;
+}
+
+#full-screen-mask img.swipe-up-part1
+{
+	animation-name:swipe-up-anim1;
+}
+
+#full-screen-mask img.swipe-up-part2
+{
+	animation-name:swipe-up-anim2;
+}
+
+#full-screen-mask img.swipe-up-part3
+{
+	animation-name:swipe-up-anim3;
+}
+
+@keyframes swipe-up-anim1
+{
+	0% {
+		opacity:0;
+	}
+	40% {
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	91% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+@keyframes swipe-up-anim2
+{
+	0% {
+		opacity:0;
+	}
+	10% {
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	91% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+@keyframes swipe-up-anim3
+{
+	0% {
+		opacity:0;
+	}
+	20% {
+		opacity:0;
+	}
+	60% {
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	91% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+/* -webkit- prefixes for older iPhones */
+
+#full-screen-mask img
+{
+	-webkit-animation-duration:1.5s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+#full-screen-mask img.swipe-up-part1
+{
+	-webkit-animation-name:swipe-up-anim1;
+}
+
+#full-screen-mask img.swipe-up-part2
+{
+	-webkit-animation-name:swipe-up-anim2;
+}
+
+#full-screen-mask img.swipe-up-part3
+{
+	-webkit-animation-name:swipe-up-anim3;
+}
+
+@-webkit-keyframes swipe-up-anim1
+{
+	0% {
+		opacity:0;
+	}
+	40% {
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	91% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+@-webkit-keyframes swipe-up-anim2
+{
+	0% {
+		opacity:0;
+	}
+	10% {
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	91% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+@-webkit-keyframes swipe-up-anim3
+{
+	0% {
+		opacity:0;
+	}
+	20% {
+		opacity:0;
+	}
+	60% {
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	91% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+div.full-screen-button
+{
+	z-index: 10000;
+	background: url(../text/resources/_modules/lean-partner-adapter-view/img/Swipe_Icon_iOS.png);
+	-webkit-background-size: cover;			/* IE9 & Above */
+    -moz-background-size: cover;			/* Mozilla */
+    -o-background-size: cover;				/* Opera */
+    background-size: cover;                 /* Chrome */
+
+	width:1.5em;
+	height:3em;
+	position:fixed;
+	top:1em;
+	right:1em;
+
+	-webkit-animation-name: blinker;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-duration:.5s;
+
+	animation-name: blinker;
+	animation-iteration-count: 2;
+	animation-duration:.5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes blinker {
+	50% { opacity : 0.0; top : 1em;}
+}
+
+/* Standard syntax */
+@keyframes blinker {
+	50% { opacity : 0.0; top : 1em;}
+}
+
+.game-container
+{
+	/* top, bottom, left, right is set by @media*/
+	position: fixed;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+div.top-box-game-container#game-container {
+	position: fixed;
+	overflow: hidden;
+	background-color: #000000;
+	height:100%;
+	width:100%;
+}
+
+.game-container > canvas {
+		width:100% ;
+}
+
+.game-and-partneradapter
+{
+	display:block;
+	background-color: #000000;
+}
+
+.game-background-container
+{
+	background-color: rgba(0, 255, 0, 0.5);
+	width: 100%;
+	position: fixed;
+	/* top, bottom is set by @media*/
+}
+
+@media screen and (orientation: portrait) {
+	#full-screen-body .game-and-partneradapter {
+	    display: block;
+	}
+	#full-screen-body .game-container {
+	    display: block;
+	}
+	#full-screen-body #modal-window-rotatedevice {
+	    display: none;
+	}
+	#full-screen-body .modal-rotatedevice-icon {
+		-moz-animation-play-state: paused;
+		-o-animation-play-state: paused;
+		-webkit-animation-play-state: paused;
+		animation-play-state: paused;
+	}
+}
+
+/* For full screen games, the Common UI Swedish icons need to be position:fixed so they don't scroll on iPhone. */
+/* On iPhone the page needs to be scrollable for our "swipe up arrow"  to work. */
+#full-screen-body #externalPanelContent {
+	position: fixed !important;
+}

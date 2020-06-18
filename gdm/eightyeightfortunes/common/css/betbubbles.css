@@ -1,0 +1,128 @@
+.bet-bubble-container
+{
+	/* top, bottom is set in @media */
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	display: none;
+}
+.bet-bubble{
+	background-color: rgba(0,0,0,0.8);
+	color: #FFFFFF;
+	border-radius: 0.5em;
+	width: 19em;
+	height: 7em;
+	display: inline-block;
+	position: relative;
+}
+.bet-bubble-bet-per-line:after{
+
+	/* top, bottom is set in @media */
+
+	content: "";
+	position: absolute;
+	left: 3em;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.8) transparent;
+	display: block;
+	width: 0;
+}
+
+.bet-bubble-bet-lines:after{
+
+	/* top, bottom is set in @media */
+
+	content: "";
+	position: absolute;
+	right: 3em;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.8) transparent;
+	display: block;
+	width: 0;
+}
+
+.bet-bubble-minus-button
+{
+	left: 1em;
+	background: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/minus_button.svg);
+}
+
+.bet-bubble-plus-button
+{
+	right: 1em;
+	background: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/plus_button.svg);
+}
+
+.bet-bubble-minus-button,
+.bet-bubble-plus-button
+{
+	margin: 0em;
+	position: absolute;
+	top: 1em;
+	cursor: pointer;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 3em;
+	height: 3em;
+}
+
+.bet-bubble-value
+{
+	margin: 0em;
+	top: 0.6em;
+	left: 2em;
+	right: 2em;
+	font-size: 2em;
+	position: absolute;
+}
+
+.bet-bubble-value p
+{
+	margin: 0em;
+	pointer-events: none;
+}
+
+.bet-bubble-title
+{
+	font-size: 1em;
+	position: absolute;
+	width: 100%;
+	bottom: 2.5em;
+	pointer-events: none;
+}
+
+.bet-bubble-min-button-container,
+.bet-bubble-max-button-container
+{
+	position: absolute;
+	top: 4.5em;
+}
+
+.bet-bubble-min-button-container
+{
+	left: 2em;			
+}
+
+.bet-bubble-max-button-container
+{
+	right: 2em;
+}
+
+.bet-bubble-min-max-button
+{
+	border-style: solid;
+	border-color: #525252;
+	border-radius: 0.4em;
+	border-width: 0.1em;
+	background-color: rgba(0,0,0,0.0);
+	color: #FFFFFF;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	height: 1.5em;
+	width: 6em;
+	font-size: 1em;
+	padding: 0em;
+	font-family: JMyriad;
+}

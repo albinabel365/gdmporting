@@ -1,0 +1,165 @@
+/* Turn off the outer glow by default*/
+button,
+img,
+div
+{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	tap-highlight-color:rgba(0,0,0,0);
+	outline: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.top-bar-background
+{
+	position: fixed;
+	bottom: 0em;
+	height: 1.3em;
+	width: 100%;
+	background-color: #3C3F42;
+	background-image: linear-gradient(#3C3F42,#000000); 
+	background-image: -webkit-linear-gradient(#3C3F42,#000000); 
+	background-image: -moz-linear-gradient(#3C3F42,#000000); 
+	background-image: -ms-linear-gradient(#3C3F42,#000000); 
+	background-image: -o-linear-gradient(#3C3F42,#000000); 
+}
+
+.top-bar
+{
+	/** display is set by @media **/
+	position: fixed;
+	bottom: 0em;
+	height: 1.3em;
+	width: 100%;
+	pointer-events: none;
+    left: 2em;
+}		
+
+.top-bar-info
+{
+	/** display is set by @media **/
+	position: fixed;
+	bottom: 0em;
+	height: 1.3em;
+	width: 100%;
+}
+
+.top-bar-clock,
+.top-bar-sessionid,
+.top-bar-version
+{
+	color: rgba(255,255,255,0.7);
+	font-size: 0.5em; 
+	position: absolute; 
+	top: 0.8em; 
+	margin: 0em;
+}
+
+.top-bar-clock
+{
+	text-align: left; 
+	left: 1em; 
+}
+
+.top-bar-sessionid
+{
+	text-align: center; 
+	right: 0em; 
+	left: 0em; 
+}
+
+.top-bar-gameround
+{
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.top-bar-version
+{
+	text-align: right; 
+	right: 1em; 
+}
+
+#top-bar-home-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icon_home.svg);
+	/*left: 0em;*/
+    display: inline-block;
+}
+#top-bar-contact-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_support.svg);
+	/*left: 1.3em;*/
+    display: inline-block;
+}
+#top-bar-deposit-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_deposit.svg);
+	/*left: 2.6em;*/
+    display: inline-block;
+}
+#top-bar-cashier-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_cashier.svg);
+	/*left: 3.9em;*/
+    display: inline-block;
+}
+#top-bar-responsible-gaming-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_responsible_gaming.svg);
+	/*left: 5.2em;*/
+    display: inline-block;
+}
+#top-bar-play4real-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_playforreal.svg);
+	/*left: 6.5em;*/
+    display: inline-block;
+}
+
+
+#top-bar-menu-button
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_settings.svg);
+    left: 2em;
+    display: none;
+}
+
+
+/*display is set in media queries*/
+.top-bar-logo
+{
+	right: 0em;
+	left: 0em;
+	height: 1.6em;
+	margin: 0 auto;
+	top: 0.2em;
+}
+	
+.top-bar-button,
+.top-bar-logo
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	/*position: absolute;*/
+}
+
+.top-bar-button
+{
+	pointer-events: auto;
+	top: 0.1em;
+	margin: 0em;
+	height: 1em;
+	width: 1em;
+
+}
+
+.landscape-logo,
+.top-bar-logo
+{
+	background-image: url(../image/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/SGD_white_logo_800X145.png);
+	width: 6em;
+}

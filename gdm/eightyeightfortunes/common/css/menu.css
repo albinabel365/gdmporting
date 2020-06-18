@@ -1,0 +1,301 @@
+.menu
+{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.menu-items
+{
+	position: fixed;
+	top: 5em;
+	bottom: 2em;
+	right: 2em;
+	left: 2em;
+	overflow-y: scroll; /* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+	background-color: #000000;
+}
+
+.menu-chunk
+{
+	width: 100%;
+}
+
+.menu-header-container,
+.menu-item
+{
+	position: relative;
+	width: 100%;
+	height: 3em;
+	margin: 0em;
+	border: 0;
+	border-bottom: 1px;
+	border-bottom-color: #C4C4C4;
+	border-bottom-style: solid;
+}
+
+.menu-item
+{
+	background-color: #FFFFFF;
+	border-color: #C4C4C4;
+	cursor: pointer;
+}
+
+.menu-header-container
+{
+	background-color: #000000;
+	border-color: #C4C4C4;
+}
+
+.menu-header
+{
+	position: absolute;
+	color: #2CC0FF;
+	font-size: 1.4em;
+	margin: 0em;
+	top: 0.7em;
+	left:0.5em;
+
+}
+
+.menu-item-icon-paytable
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_paytable.svg);
+}
+
+.menu-item-icon-autospin
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_autospin.svg);
+}
+
+.menu-item-icon-rules
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_rules.svg);
+}
+
+.menu-item-icon-sound
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_sound.svg);
+}
+
+.menu-item-icon-bet-level
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_betlevel.svg);
+}
+
+.menu-item-icon-contact
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_support.svg);
+}
+
+.menu-item-icon-deposit
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_deposit.svg);
+}
+
+.menu-item-icon-responsible-gaming
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_responsible_gaming.svg);
+}
+
+.menu-item-icon-cashier
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_cashier.svg);
+}
+
+.menu-item-icon-playforreal
+{
+	background-image: url(partner/mockogs5/asset/img/icons_playforreal.svg);
+}
+
+.menu-item-icon-rules,
+.menu-item-icon-paytable,
+.menu-item-icon-autospin,
+.menu-item-icon-sound,
+.menu-item-icon-bet-level,
+.menu-item-icon-contact,
+.menu-item-icon-deposit,
+.menu-item-icon-responsible-gaming,
+.menu-item-icon-cashier,
+.menu-item-icon-playforreal,
+.menu-item-icon
+{
+	background-size: cover;
+	color: #000000; /* this is the color the icon should have */
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	height: 2em;
+	width: 2em;
+}
+
+.menu-item-arrow-icon
+{
+	color: #000000; /* this is the color the icon should have */
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	height: 2em;
+}
+
+.menu-item-text,
+.menu-item-value-text
+{
+	position: absolute;
+	margin: 0;
+	font-size: 1.2em;
+	top: 0.7em;
+	color: #000000;
+}
+
+.menu-item-text
+{
+	left: 3.0em;
+}
+
+.menu-item-value-text
+{
+	right: 3.0em;
+}
+
+.menu-topbar
+{
+	height: 3em;
+	position: fixed;
+	top: 2em;
+	left: 2em;
+	right: 2em;
+
+	background-color: #3ACEFF;
+	background-image: linear-gradient(#363638, #1D1D1E);
+	background-image: -webkit-linear-gradient(#363638, #1D1D1E); 
+	background-image: -moz-linear-gradient(#363638, #1D1D1E); 
+	background-image: -ms-linear-gradient(#363638, #1D1D1E); 
+	background-image: -o-linear-gradient(#363638, #1D1D1E); 
+}
+
+.menu-topbar-back-container
+{
+	height: 3em;
+	width: 3em;
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+}
+
+.menu-topbar-back
+{
+	height: 2em;
+	width: 2em;
+	left: 0.75em;
+	top: 0.5em;
+	color: #FFFFFF; /* this is the color the icon should have */
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_settings_arrow_left.svg);
+	background-size: cover;
+}
+
+.menu-topbar-text
+{
+	position: absolute;
+	text-align: center;
+	top: 0.5em;
+	margin: 0em;
+	font-size: 1.4em;
+	font-weight: bold;
+	left: 0em;
+	right: 0em;
+	color: #FFFFFF;
+}
+
+.paytable-menu-container,
+.rules-menu-container,
+.betlevel-menu-container
+{
+	display: none;
+}
+
+.paytable-menu-content-container,
+.rules-menu-content-container
+{
+	position: fixed;
+	left: 0em;
+	right: 0em;
+	top: 3em;
+	bottom: 0em;
+	overflow-y: scroll; /* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+	
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+/** help-container and pays-container are owned by the game and the partner adapter may only set the dimentions and nothing else**/
+.help-container, /*rules*/
+.pays-container /*paytable*/
+{
+	position: absolute;
+	top: 0em;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+}
+
+.menu-checkbox-background
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_checkbox_box.svg);
+}
+
+.menu-checkbox-check
+{
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_checkbox_check.svg);
+}
+
+.menu-checkbox-background,
+.menu-checkbox-check
+{
+	right: 1.2em;
+	top: 0.4em;
+
+	width: 2.1em;
+	height: 2.1em;
+
+	position: absolute;
+	display: block;
+	background-size: cover;
+}
+
+.menu-external-link
+{
+	right: 1.3em;
+	width: 1.7em;
+	height: 1.7em;
+	top: 0.5em;
+	position: absolute;
+	background-image: url(../text/resources/_modules/ogs-gcm-lean-partner-adapter-view/img/icons_externallink.svg);
+	background-size: cover;
+}
+
+.menu-item-autospin-select
+{
+	width: 4em;
+	height: 1.8em;
+	text-align: center;
+	font-size: 1.2em;
+	right: 3.0em;
+	top: 0.3em;
+	position: absolute;
+	border-width: 0.1em;
+	border-radius: 0.2em;
+	margin: 0em;
+
+	border-color: #919395;
+	background-color: #FFFFFF;
+	color: #000000;
+
+}

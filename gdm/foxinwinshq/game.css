@@ -1,0 +1,371 @@
+@font-face {
+	font-family: 'Nougat';
+	src: url('fonts/nougat.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Griffon';
+	src: url('fonts/Griffon.ttf') format('truetype');
+	src: url('fonts/GriffonBold.ttf') format('truetype');
+	src: url('fonts/GriffonItalic.ttf') format('truetype');
+}
+
+html {
+	width:100%;
+	height:100%;
+}
+body {
+    margin:0px;
+    padding:0px;
+    width:  100%;
+    height: 100%;
+	font: normal 14px/1 Arial Black, Gadget, sans-serif;
+	text-shadow: 1px 1px 2px rgba(0,0,0,1);
+	-webkit-text-size-adjust:none;
+	overflow:visible;
+}
+
+.bdCSS {
+	background: #4F4E4C; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffad00 0%, #4F4E4C 50%, #302F2E 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffad00), color-stop(50%,#4F4E4C), color-stop(100%,#302F2E)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #302F2E 0%,#4F4E4C 50%,#302F2E 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #302F2E 0%,#4F4E4C 50%,#302F2E 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #302F2E 0%,#4F4E4C 50%,#302F2E 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#000000 50%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffad00', endColorstr='#ffd758',GradientType=0 ); /* IE6-9 */
+	background: no-repeat top center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	z-index: -3;
+}
+
+.bufferedbg
+{
+	content: '';
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	z-index: -2;
+	background: no-repeat top center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0;
+}
+
+  canvas{
+    outline:0;
+    border:0px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.divhelp {
+	/*background-color: #509418;*/
+	background: #773830; /* Old browsers */
+	background: -moz-linear-gradient(top, #5c2b2b 0%, #773830 50%, #5c2b2b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5c2b2b), color-stop(50%, #773830), color-stop(100%, #5c2b2b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5c2b2b 0%, #773830 50%, #5c2b2b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5c2b2b 0%, #773830 50%, #5c2b2b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5c2b2b 0%, #773830 50%, #5c2b2b 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #5c2b2b 0%, #773830 50%, #5c2b2b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5c2b2b', endColorstr='#5c2b2b', GradientType=0); /* IE6-9 */
+
+	background: no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+
+	height:100%;
+	overflow:scroll;
+
+}
+
+span.meterLabel
+{
+	color: #FFFF00;
+	font-size: 24px;	/*NOTE: This font size can be overridden within language.js for specific languages*/
+	text-shadow:1px 1px 1px #000000;
+}  
+
+span.meterValue
+{
+	color: #FFFFFF;
+	font-size: 24px;	/*NOTE: This font size can be overridden within language.js for specific languages*/
+	text-shadow:1px 1px 1px #000000;
+}
+
+  
+p.count
+{
+	font:normal 24px/1 Impact, Charcoal, sans-serif;
+	color: rgba(255,255,0,1);
+	text-shadow:2px 2px 2px rgba(0,0,0,0.5) ;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.wildtitle
+{
+	font:normal 28px/1 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: rgba(255,0,0,1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,1) ;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.scattertitle
+{
+	font:normal 28px/1 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: rgba(2,204,255,1);
+	text-shadow:2px 2px 2px rgba(0,0,0,1) ;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.amount
+{
+	font:normal 24px/1 Impact, Charcoal, sans-serif;
+	color: #FFFFFF;
+	text-shadow:2px 2px 2px rgba(0,0,0,0.5) ;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.ofakind
+{
+	font:normal 22px/1 Impact, Charcoal, sans-serif;
+	color: rgba(255,246,0,1);
+	text-shadow:2px 2px 2px rgba(0,0,0,0.5) ;
+	padding: 0px;
+	margin: 10px;
+}
+/* 
+p.ruletext
+{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow:1px 1px 2px #000000;
+	padding: 0px;
+	margin: 0px;
+}
+p.paysany
+{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	color: #2bf736;
+	text-shadow:1px 1px 2px #000000;
+	padding: 0px;
+	margin: 5px;
+}
+
+p.wildrule 
+ {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow:2px 2px 2px #000000;
+	padding: 0px;
+	margin: 0px;
+}
+*/
+p.titlerules
+{
+	font:normal 30px/2 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-align: center;
+	color: rgba(255,242,0,1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+
+p.titlefree
+{
+	font:normal 30px/2 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-align: center;
+	color: rgba(255,242,0,1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+
+p.titlesuperbet
+{
+	font:normal 30px/2 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-align: center;
+	color: rgba(255,242,0,1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+
+p.titlerandombonus
+{
+	font:normal 30px/2 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-align: center;
+	color: rgba(255,242,0,1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+
+/* p.rules
+{
+	font:normal 26px/1 Impact, Charcoal, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-align: center;
+	color: rgba(255,153,0,1);
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	text-transform: uppercase;
+}
+*/
+.helpblockbackground {
+  background: -webkit-linear-gradient(-90deg, rgba(249,241,214,0.7) 0, rgba(255,217,102,0.7) 9%, rgba(147,73,0,1) 97%, rgba(183,106,34,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(249,241,214,0.7) 0, rgba(255,217,102,0.7) 9%, rgba(147,73,0,1) 97%, rgba(183,106,34,1) 100%);
+  background: linear-gradient(180deg, rgba(249,241,214,0.7) 0, rgba(255,217,102,0.7) 9%, rgba(147,73,0,1) 97%, rgba(183,106,34,1) 100%);
+  background-position: 50% 50%;
+
+  border: 1px solid rgba(214,132,51,1);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(252,252,118,0.7) ;
+   box-shadow: 0 0 2px 2px rgba(252,252,118,0.7) ;
+ 
+	padding-top:15px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:0px;
+	margin:0px;
+}
+
+/*.backdrop{
+    background-image: url(assets/hq/images/backgrounds/hq_basegame_bg.jpg);
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}*/
+
+#c {
+}
+
+ul.helptext {
+	font-size:18px;
+	color: #FFFFFF;
+	line-height: 150%;
+	text-decoration: none;
+}
+
+.exitHelp {
+	font-size:16px;
+	color:#ffffff;
+}
+.helpMeterBlock {
+	display: inline-block; 
+	margin-left: 10px; 
+	margin-bottom: 10px;
+}
+
+.highlight {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+#meters {
+	border-collapse: collapse;
+	text-align:left;
+	background-color: #116b2e;
+	border-color: #116b2e;
+	width: 100%;
+
+background: #5c7086; /* Old browsers */
+background: -moz-linear-gradient(top,  #a45e00 1%, #fdbb1a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#a45e00), color-stop(100%,#fdbb1a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a45e00 1%,#fdbb1a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a45e00 1%,#fdbb1a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a45e00 1%,#fdbb1a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #a45e00 1%,#fdbb1a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a45e00', endColorstr='#fdbb1a',GradientType=0 ); /* IE6-9 */
+
+}
+#test {
+	color: #FFF;
+}
+.rulesText {
+	font-size: 12px;
+}
+
+/***************************************
+Handle popup and message box
+***************************************/
+.overlay {
+	top:32px; 
+	display: none; 
+	position: fixed; 
+	width:100%; 
+	height:100%; 
+	background:#000000; 
+	opacity:.70; 
+	filter:alpha(opacity=70); 
+	filter: 'alpha(opacity=70)';
+}
+
+#popup {
+	top: 32px;
+	width: 100%;
+	background:#CCC;
+	display: none;
+	position: absolute;
+	z-index:11;
+}
+h1.rtp {
+	font-size:16px;
+	color: #ffffff;
+	line-height: 150%;
+}
+
+.fontsPreloading {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	z-index: -2;
+	top: 50%;
+	left: 50%;
+	font-size: 0;
+	overflow: hidden;
+}

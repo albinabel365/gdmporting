@@ -1,0 +1,60 @@
+.status-bar
+{
+	position: fixed;
+	bottom: 0em;
+	height: 1.3em;
+	width: 100%;
+    left: 10em;
+    display: none;
+}
+
+.status-bar-balance,
+.status-bar-win,
+.status-bar-totalbet
+{
+	/*position: absolute; */
+	font-size: 0.7em;
+	color: #FFFFFF;
+}
+
+.status-bar-balance,
+.status-bar-win
+{
+	text-align: left; 
+    display: inline;	
+}
+
+.status-bar-balance-item
+{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+.status-bar-win-item
+{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+#status-bar-balance-value-text,
+#status-bar-win-value-text
+{
+    border: .1em solid white;
+    border-radius: .4em;
+    padding: 0.1em .5em 0em .5em;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.status-bar-totalbet
+{
+	text-align: center;
+	left: 0em;
+	right: 0em;
+}
+
+.status-bar-totalbet-item
+{
+	display: inline-block;
+}
+

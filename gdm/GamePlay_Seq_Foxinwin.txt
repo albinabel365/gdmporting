@@ -1,0 +1,93 @@
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 1
+game_min.js:20754 #####GAME_INTERACTION-WindowObj at wrapper API metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:20757 #####GAME_INTERACTION-WindowObj send message to server &MSGID=BET&BPL=20&LB=25&ABPM=0&
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2086490377
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed REEL_STOPPED 
+game_min.js:18288 #####GAME_INTERACTION-WindowObj wrapper API metrics for round
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 0
+ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+ogsgcmwrapper.js:151 #####WRAPPER_INTERACTION-GameIFrame API Ext TEMP_PAUSE_AUTOPLAY
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 100
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2086490477
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 1
+
+Error------------------------
+
+game_min.js:20754 #####GAME_INTERACTION-WindowObj at wrapper API metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:20757 #####GAME_INTERACTION-WindowObj send message to server &MSGID=BET&BPL=20&LB=25&ABPM=0&
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 9999500
+game_min.js:18296 #####GAME_INTERACTION-WindowObj at delegate error handling
+
+
+Change Bet
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_BET 625
+
+Toggle Mute
+136game_min.js:23232 #####GAME_INTERACTION-WindowObj audio button visibility check
+game_min.js:22964 #####GAME_INTERACTION-WindowObj aaudio button visibility check
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed MUTE true
+64game_min.js:23232 #####GAME_INTERACTION-WindowObj audio button visibility check
+game_min.js:22964 #####GAME_INTERACTION-WindowObj aaudio button visibility check
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed MUTE false
+182game_min.js:23232 #####GAME_INTERACTION-WindowObj audio button visibility check
+game_min.js:22964 #####GAME_INTERACTION-WindowObj aaudio button visibility check
+247game_min.js:23232 #####GAME_INTERACTION-WindowObj audio button visibility check
+
+
+Auto Play -------------------------------------------------------------------------
+game_min.js:18923 #####GAME_INTERACTION-WindowObj at autoplay notification of game, loss limit and single win limits
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 1
+game_min.js:20754 #####GAME_INTERACTION-WindowObj at wrapper API metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:20757 #####GAME_INTERACTION-WindowObj send message to server &MSGID=BET&BPL=20&LB=25&ABPM=0&
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 0
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2132855137
+​ #####GAME_INTERACTION-WindowObj value changed REEL_STOPPED 
+​ #####GAME_INTERACTION-WindowObj wrapper API metrics for round
+​ #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+​ #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 0
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2132855137
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 0
+ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+ogsgcmwrapper.js:151 #####WRAPPER_INTERACTION-GameIFrame API Ext TEMP_PAUSE_AUTOPLAY
+game_min.js:13175 #####GAME_INTERACTION-WindowObj at check jackpot supported and decide autoplay stop if jackpot win
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 1
+game_min.js:20754 #####GAME_INTERACTION-WindowObj at wrapper API metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:20757 #####GAME_INTERACTION-WindowObj send message to server &MSGID=BET&BPL=20&LB=25&ABPM=0&
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2132854637
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed REEL_STOPPED 
+game_min.js:18288 #####GAME_INTERACTION-WindowObj wrapper API metrics for round
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 0
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2132854637
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 0
+ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+ogsgcmwrapper.js:151 #####WRAPPER_INTERACTION-GameIFrame API Ext TEMP_PAUSE_AUTOPLAY
+game_min.js:13175 #####GAME_INTERACTION-WindowObj at check jackpot supported and decide autoplay stop if jackpot win
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 1
+game_min.js:20754 #####GAME_INTERACTION-WindowObj at wrapper API metrics
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:20757 #####GAME_INTERACTION-WindowObj send message to server &MSGID=BET&BPL=20&LB=25&ABPM=0&
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2132854137
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed REEL_STOPPED 
+game_min.js:18288 #####GAME_INTERACTION-WindowObj wrapper API metrics for round
+game_min.js:18043 #####GAME_INTERACTION-WindowObj at get jurisdiction from customsettings
+game_min.js:18052 #####GAME_INTERACTION-WindowObj at get quality for getUI
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed ROUND 0
+ogsgcmwrapper.js:155 #####WRAPPER_INTERACTION-GameIFrame API Ext ENABLE_ALL_UI
+ogsgcmwrapper.js:151 #####WRAPPER_INTERACTION-GameIFrame API Ext TEMP_PAUSE_AUTOPLAY
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed TOTAL_WIN 300
+game_min.js:18292 #####GAME_INTERACTION-WindowObj value changed BALANCE 2132854437
+game_min.js:13175 #####GAME_INTERACTION-WindowObj at check jackpot supported and decide autoplay stop if jackpot win

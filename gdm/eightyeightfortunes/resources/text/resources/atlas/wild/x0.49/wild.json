@@ -1,0 +1,186 @@
+{
+  "frames" : {
+    "resources/atlas/wild/wild-04" : {
+      "frame" : {
+        "x" : 417,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-05" : {
+      "frame" : {
+        "x" : 417,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-06" : {
+      "frame" : {
+        "x" : 623,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-07" : {
+      "frame" : {
+        "x" : 623,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-08" : {
+      "frame" : {
+        "x" : 829,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-09" : {
+      "frame" : {
+        "x" : 829,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-10" : {
+      "frame" : {
+        "x" : 1035,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-00" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-11" : {
+      "frame" : {
+        "x" : 1035,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-01" : {
+      "frame" : {
+        "x" : 5,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-12" : {
+      "frame" : {
+        "x" : 1241,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-02" : {
+      "frame" : {
+        "x" : 211,
+        "y" : 211,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    },
+    "resources/atlas/wild/wild-03" : {
+      "frame" : {
+        "x" : 211,
+        "y" : 5,
+        "w" : 196,
+        "h" : 196
+      },
+      "sourceSize" : {
+        "w" : 400,
+        "h" : 400
+      },
+      "rotated" : false,
+      "page" : 0
+    }
+  }
+}

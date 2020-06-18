@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'JMyriad';
+	src: url('../font/resources/_modules/ogs-gcm-lean-partner-adapter-view/font/jmyriadnormal.ttf?appcode=lean-ogs-gcm-partner-adapter&resourceversion=4.72.0.2-1565109179') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'JMyriadBold';
+	src: url('../font/resources/_modules/ogs-gcm-lean-partner-adapter-view/font/jmyriadbold.ttf?appcode=lean-ogs-gcm-partner-adapter&resourceversion=4.72.0.2-1565109179') format('truetype');
+	font-weight: bold;
+}

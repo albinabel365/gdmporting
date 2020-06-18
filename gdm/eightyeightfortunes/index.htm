@@ -1,0 +1,372 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>EightyEightFortunes</title>
+	 <script type="text/javascript">
+			var GAME_ID = 506;
+			var gDate = new Date();
+			var gLoadTimeStart = gDate.getTime();
+	  </script>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta id="viewport" name='viewport'/>
+    <meta charset="UTF-8"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png"/>
+	
+	
+    <script type="text/javascript" src="bootstrapper.Bootstrapper.js" charset="UTF-8"></script>
+	<script src="gdmadapter.js"></script>
+	<script src="gameloader.js"></script>
+	<script src="currencyformat.js"></script>
+	<script src="utils.js"></script>
+	<script data-main="lib/require/require_cfg.js" src="lib/require/require.js" type="text/javascript"></script>
+    <script>
+		adapter = new gdmadapter.GDMAdapter(document);
+		
+		
+        /*(function (doc) {
+            if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+                doc.getElementById("commoncss").setAttribute("href", "./common3.css")
+            } else if (navigator.userAgent.match(/iPad/i)) {
+                doc.getElementById("commoncss").setAttribute("href", "./common3_ipad.css")
+            } else {
+                doc.getElementById("commoncss").setAttribute("href", "./common3_ipad.css")
+            }
+        }(document));*/
+    </script>
+
+</head>
+
+
+<body bgcolor="#000000"  style="position: fixed; top: 0">
+    <!--<div id="game" style="margin:0px auto; visibility:hidden;">
+        <canvas id='c' width="960" height="560"></canvas>
+    </div>-->
+
+    <div id="game-and-partneradapter" class="game-and-partneradapter">
+	    <!-- GAME CONTAINER -->
+		<div id="game" class="game-container"></div>
+
+		<header id="top-bar-info" class="top-bar-info">
+			<div id="top-bar-clock-text" class="top-bar-clock">XX:XX</div>
+			<div class="top-bar-sessionid">
+				<span id="top-bar-current-gameround-id" class="top-bar-gameround"></span>
+				<span id="top-bar-last-gameround-id" class="top-bar-gameround"></span>
+			</div>
+			<div id="top-bar-version-text" class="top-bar-version">vX.X.X</div>
+		</header>
+
+        <div id="top-bar-menu-button">
+            <div id="top-bar-menu-button-content"></div> 
+        </div>
+
+		
+        
+        <!-- STATUS BAR -->
+		<footer id="status-bar" class="status-bar">
+			<div id="status-bar-balance" class="status-bar-balance">
+				<div id="status-bar-balance-label-text" class="status-bar-balance-item">{BALANCE}:</div>
+				<div id="status-bar-balance-value-text" class="status-bar-balance-item">-</div>
+			</div>
+
+			<div id="status-bar-win" class="status-bar-win">
+				<div id="status-bar-win-label-text" class="status-bar-win-item">{WIN}:</div>
+				<div id="status-bar-win-value-text" class="status-bar-win-item">-</div>
+			</div>
+
+			<div id="status-bar-totalbet" class="status-bar-totalbet">
+				<div id="status-bar-totalbet-label-text" class="status-bar-totalbet-item">{TOTAL BET}:</div>
+				<div id="status-bar-totalbet-value-text" class="status-bar-totalbet-item">-</div>
+			</div>
+		</footer>
+	</div><!--gameandpartneradapter-->
+    
+    <!-- MENU -->
+		<div id="menu" class="menu">
+			<div id="menu-items" class="menu-items">
+
+				<!-- GAME SETTINGS -->
+				<div id="menu-chunk-game-settings" class="menu-chunk">
+					<div class="menu-header-container">
+						<p id="menu-header-game-settings" class="menu-header">{Game settings}</p>
+                    </div>
+					<div id="menu-item-sound" class="menu-item">
+						<div id="menu-item-icon-sound" class="menu-item-icon-sound"></div>
+						<p id="menu-item-text-sound" class="menu-item-text">{Sound}</p>
+						<div id="menu-checkbox-sound">
+							<div id="menu-checkbox-sound-background" class="menu-checkbox-background"></div>
+							<div id="menu-checkbox-sound-check" class="menu-checkbox-check"></div>
+						</div>
+                    </div>
+					<div id="menu-item-playforreal" class="menu-item">
+						<div id="menu-item-icon-playforreal" class="menu-item-icon-playforreal"></div>
+						<p id="menu-item-text-playforreal" class="menu-item-text">{Play for real money}</p>
+						<div class="menu-external-link"></div>
+                    </div>
+				</div>
+
+					<!-- INFORMATION -->
+				<div id="menu-chunk-information" class="menu-chunk">
+					<div class="menu-header-container">
+						<p id="menu-header-information" class="menu-header">{Information}</p>
+					</div>
+					<div id="menu-item-paytable" class="menu-item">
+						<div id="menu-item-icon-paytable" class="menu-item-icon-paytable"></div>
+						<p id="menu-item-text-paytable" class="menu-item-text">{Paytable}</p>
+					</div>
+
+					<div id="menu-item-rules" class="menu-item">
+						<div id="menu-item-icon-rules" class="menu-item-icon-rules"></div>
+						<p id="menu-item-text-rules" class="menu-item-text">{Rules}</p>
+					</div>
+				</div>
+
+				<!-- SUPPORT -->
+				<div id="menu-chunk-support" class="menu-chunk">
+					<div class="menu-header-container">
+						<p id="menu-header-support" class="menu-header">{Support}</p>
+					</div>
+                    <div id="menu-item-home" class="menu-item">
+						<div id="menu-item-icon-home" class="menu-item-icon-home"></div>
+						<p id="menu-item-text-home" class="menu-item-text">{Home}</p>
+						<div class="menu-external-link"></div>
+					</div>
+                    <div id="menu-item-contact" class="menu-item">
+						<div id="menu-item-icon-contact" class="menu-item-icon-contact"></div>
+						<p id="menu-item-text-contact" class="menu-item-text">{Contact}</p>
+						<div class="menu-external-link"></div>
+					</div>
+					<div id="menu-item-deposit" class="menu-item">
+						<div id="menu-item-icon-deposit" class="menu-item-icon-deposit"></div>
+						<p id="menu-item-text-deposit" class="menu-item-text">{Deposit}</p>
+						<div class="menu-external-link"></div>
+					</div>
+					<div id="menu-item-cashier" class="menu-item">
+						<div id="menu-item-icon-cashier" class="menu-item-icon-cashier"></div>
+						<p id="menu-item-text-cashier" class="menu-item-text">{Cashier}</p>
+						<div class="menu-external-link"></div>
+					</div>
+					<div id="menu-item-responsible-gaming" class="menu-item">
+						<div id="menu-item-icon-responsible-gaming" class="menu-item-icon-responsible-gaming"></div>
+						<p id="menu-item-text-responsible-gaming" class="menu-item-text">{Responsible gaming}</p>
+						<div class="menu-external-link"></div>
+                    </div>
+				</div>
+			</div>
+
+			<div id="menu-topbar" class="menu-topbar">
+				<p id="menu-topbar-text" class="menu-topbar-text">{SETTINGS}</p>
+				<div id="menu-topbar-back-container" class="menu-topbar-back-container">
+					<div id="menu-topbar-back" class="menu-topbar-back"></div>
+				</div>
+			</div>
+
+			<!-- CONTENT-->
+			<div id="paytable-menu-container" class="paytable-menu-container">
+				<div id="paytable-menu-container-topbar" class="menu-topbar">
+					<p id="paytable-menu-container-topbar-text" class="menu-topbar-text">{pays}</p>
+					<div id="paytable-menu-container-topbar-back-container" class="menu-topbar-back-container">
+						<div id="paytable-menu-container-topbar-back" class="menu-topbar-back"></div>
+					</div>
+				</div>
+				<div id="paytable-menu-content-container" class="paytable-menu-content-container">
+				<div id="pays-container" class="pays-container"></div> <!-- populated by game-->
+				</div>
+			</div>
+			<div id="rules-menu-container" class="rules-menu-container">
+				<div id="rules-menu-container-topbar" class="menu-topbar">
+					<p id="rules-menu-container-topbar-text" class="menu-topbar-text">{rules}</p>
+					<div id="rules-menu-container-topbar-back-container" class="menu-topbar-back-container">
+						<div id="rules-menu-container-topbar-back" class="menu-topbar-back"></div>
+					</div>
+				</div>
+				<div id="rules-menu-content-container" class="rules-menu-content-container">
+				<div id="help-container" class="help-container"></div> <!-- populated by game-->
+				</div>
+			</div>
+		</div>
+
+		<div id="pregame-container">
+
+			<!-- DETECT CAPABILITIES -->
+			<div id="detect-capabilities-wrapper" class="detect-capabilities-wrapper">
+				<center id="detect-capabilities-stopped-container" class="detect-capabilities-stopped-container">
+					<div id="detect-capabilities-container" class="detect-capabilities-container">
+
+						<div id="image" class="detect-capabilities-image">
+							<img src="image/resources/warning.png?appcode=capabilities-detector&scale=1.0&resourceversion=4.72.0.2-1564155912" alt="warning">
+						</div>
+
+						<div id="detect-capabilities-headline" class="detect-capabilities-headline"></div>
+						<div id="detect-capabilities-message" class="detect-capabilities-message"></div>
+
+						<div>
+							<button id="detect-capabilities-proceedbutton" class="detect-capabilities-button"></button>
+						</div>
+
+					</div>
+				</center>
+			</div>
+
+			<!-- PROGRESS BAR -->
+			<div id="progress-bar-modal" class="progress-bar-modal">
+				<div id="progress-bar-container" class="progress-bar-container">
+					<div id="progrss-bar-logo" class="progress-bar-logo"></div>
+					<div id="progress-bar-wrapper" class="progress-bar-wrapper">
+						<div id="progress-bar" class="progress-bar"></div>
+					</div>
+					<div id="progress-bar-text" class="progres-bar-text"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SLOW CONNECTION -->
+		<div id="slow-connection-container" class="slow-connection-container">
+			<div id="slow-connection-text" class="slow-connection-text"></div>
+		</div>
+
+		 <!-- MODAL WINDOW SETTING-->
+        <div id="modal-window-modal-settings" class="modal-window-modal-settings"></div>
+        <div id="modal-window-wrapper-settings" class="modal-window-wrapper-settings">
+            <div id="modal-window-autoplay-setting" class="modal-window" >
+               <div id="modal-window-autoplay-setting-parent">
+                  <div class="autoplay-setting-panel">
+                     <div class="autoplaysetting_ul">
+                        <div  class="autoplay_setting_title">
+                           <div>
+                              <div>
+                                 <div id="modal-window-autoplay-setting-title-value-text"  ></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="autoplay-section-container">
+
+                           <div id="autoplay-countlist-main">
+                              <div id="autoplay-countlist-container-title" class="autoplay_setting_title_sub"></div>
+                              <ul id="autoplay-countlist-container" >
+                              </ul>
+                           </div>
+
+                           <div id="autoplay-expander-container-main">
+                               <div id="autoplay-expander-container-default">
+                                   <div class="arrow-down-holder">
+                                        <div class="arrow-down"></div>
+                                    </div>
+                                   <div id="autoplay_expander_txt"></div>
+                               </div>
+                               <div id="autoplay-expander-container-opened">
+                                     <div class="divider"><div><div class="arrow-down-disable"></div></div>  </div> 
+                                
+                               </div>
+                           </div>
+                            
+                           <div id="autoplay-losswin-container-main">
+                               <div id="autoplay-losslist-container-main">
+                                  <div id="autoplay-losslist-container-title" class="autoplay_setting_title_sub" ></div>
+                                  <ul id="autoplay-losslist-container" >
+                                  </ul>
+                                  <div id="autoplay-losslist-container-main-overlay" class="autoplay-section-overlay">
+                                  </div>
+                               </div>
+                               <div id="autoplay-winlist-container-main">
+                                  <div id="autoplay-winlist-container-title" class="autoplay_setting_title_sub" ></div>
+                                  <ul id="autoplay-winlist-container" >
+                                  </ul>
+                                  <div id="autoplay-winlist-container-main-overlay" class="autoplay-section-overlay">
+                                  </div>
+                               </div>
+                           </div>   
+
+                           <div id="autoplay-btm-btns-container">
+                              <div class="button-outter button-outter-left">
+                                 <div class="button-middle">
+                                    <div id="autoplay-setting-button-cancel" class="button-inner cancelDefaultState">
+                                       <div id="autoplay-setting-button-cancel-label"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="button-outter button-outter-right">
+                                 <div  class="button-middle">
+                                    <div id="autoplay-setting-button-ok" data-value="disable" class="button-inner disableState">
+                                       <div id="autoplay-setting-button-ok-label"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+		<!-- MODAL WINDOW -->
+		<div id="modal-window-modal" class="modal-window-modal"></div>
+		<div id="modal-window-wrapper" class="modal-window-wrapper">
+			<div id="modal-window-error" class="modal-window">
+				<div id="modal-window-error-body" class="modal-window-body">
+					<div id="modal-window-error-icon" class="modal-error-icon"></div>
+					<div id="modal-window-error-title-value-text" class="modal-window-title-value-text"></div>
+					<div id="modal-window-error-body-value-text" class="modal-window-body-value-text"></div>
+					<input id="modal-window-error-button" type="button" class="modal-window-button-1">
+				</div>
+			</div>
+
+			<div id="modal-window-info" class="modal-window">
+				<div id="modal-window-info-body" class="modal-window-body">
+					<div id="modal-window-info-icon" class="modal-info-icon"></div>
+					<div id="modal-window-info-title-value-text" class="modal-window-title-value-text"></div>
+					<div id="modal-window-info-body-value-text" class="modal-window-body-value-text"></div>
+					<input id="modal-window-info-button" type="button" class="modal-window-button-1">
+				</div>
+			</div>
+
+			<div id="modal-window-responsible-gaming" class="modal-window">
+				<div id="modal-window-responsible-gaming-body" class="modal-window-body">
+					<div id="modal-window-responsible-gaming-icon" class="modal-info-icon"></div>
+					<div id="modal-window-responsible-gaming-title-value-text" class="modal-window-title-value-text"></div>
+					<div id="modal-window-responsible-gaming-body-value-text" class="modal-window-body-value-text"></div>
+					<input id="modal-window-responsible-gaming-button-stay" type="button" class="modal-window-button-1">
+					<input id="modal-window-responsible-gaming-button-leave" type="button" class="modal-window-button-2">
+				</div>
+			</div>
+
+              
+			<div id="modal-window-confirm-exit" class="modal-window">
+				<div id="modal-window-confirm-exit-body" class="modal-window-body">
+					<div id="modal-window-confirm-exit-icon" class="modal-info-icon"></div>
+					<div id="modal-window-confirm-exit-title-value-text" class="modal-window-title-value-text"></div>
+					<div id="modal-window-confirm-exit-body-value-text" class="modal-window-body-value-text"></div>
+					<input id="modal-window-confirm-exit-button-stay" type="button" class="modal-window-button-1">
+					<input id="modal-window-confirm-exit-button-leave" type="button" class="modal-window-button-2">
+				</div>
+			</div>
+
+			<div id="modal-window-insufficient-funds" class="modal-window">
+				<div id="modal-window-insufficient-funds-body" class="modal-window-body">
+					<div id="modal-window-nsufficient-funds-icon" class="modal-info-icon"></div>
+					<div id="modal-window-insufficient-funds-title-value-text" class="modal-window-title-value-text"></div>
+					<div id="modal-window-insufficient-funds-body-value-text" class="modal-window-body-value-text"></div>
+					<input id="modal-window-insufficient-funds-button-stay" type="button" class="modal-window-button-1">
+					<input id="modal-window-insufficient-funds-button-leave" type="button" class="modal-window-button-2">
+				</div>
+			</div>
+		</div>
+        <div id="modal-window-rotatedevice" class="modal-window-rotatedevice">
+            <div id="modal-window-rotatedevice-body" class="modal-window-rotatedevice-body">
+                <div id="modal-window-rotatedevice-icon" class="modal-rotatedevice-icon"></div>
+            </div>
+        </div>		
+
+
+
+
+
+
+
+    <!--<div>
+        <div id="backdrop" class="backdrop"></div>-->
+        <div id="help" style="display:none;" class="divhelp"></div>
+    <!--</div>-->
+
+</body>
+</html>
