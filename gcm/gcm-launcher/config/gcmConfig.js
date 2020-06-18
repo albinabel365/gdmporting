@@ -65,7 +65,7 @@ var GCMConfig = (function () {
               commonUIUrl: "/ogs/desktop-commonui/commonui.html",
             },
             "mobile": {
-              commonUIUrl: "http://localhost:2015/ogs/mobile-commonui/commonui.html",
+              commonUIUrl: "https://albinabel365.github.io/gdmporting/ogs/mobile-commonui/commonui.html",
             },
 
             "default": {
@@ -287,10 +287,10 @@ var GCMConfig = (function () {
         },
         "5": {
             "desktop": {
-              commonUIUrl: "http://localhost:2015/ogs/desktop-commonui/commonui.html",
+              commonUIUrl: "https://albinabel365.github.io/gdmporting/ogs/desktop-commonui/commonui.html",
             },
             "mobile": {
-              commonUIUrl: "http://localhost:2015/ogs/mobile-commonui/commonui.html",
+              commonUIUrl: "https://albinabel365.github.io/gdmporting/ogs/mobile-commonui/commonui.html",
             },
 
             "default": {
