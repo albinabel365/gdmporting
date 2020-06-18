@@ -376,7 +376,7 @@ var bootstrapper;
 		var browserLanguage = this.win.navigator.language != undefined ? this.win.navigator.language : this.win.navigator.browserLanguage;
 		this.localeResolver = new bootstrapping.LanguageAndCountryLocaleCodeResolver(browserLanguage);
 		this.applicationLoader = new bootstrapping.ApplicationLoader(this.win, this.localeResolver, sitecontext.SiteContext.getParameters());
-		var scripts = ["resources/js/"+this.gameCode+".game.js?appcode="+this.gameCode, "bundles/metadata/"+this.gameCode+".MetaDataBundle.js?appcode="+this.gameCode];
+		var scripts = ["resources/js/"+this.gameCode+".Game.js?appcode="+this.gameCode, "bundles/metadata/"+this.gameCode+".MetaDataBundle.js?appcode="+this.gameCode];
 			//var scripts = ["content/"+this.gameCode+"/resources/js/"+this.gameCode+".game.js?resourceversion="+this.resourceVersion+"&appcode="+this.gameCode, "metadatajs/bundles/gamemetadata/"+this.gameCode+".MetaDataBundle.js?resourceversion="+this.resourceVersion+"&appcode="+this.gameCode];
 		this.loadGame(scripts);
 
