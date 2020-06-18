@@ -8433,7 +8433,7 @@ var GcmCore = exports.GcmCore = function () {
         key: 'loadLauncher',
         value: function loadLauncher(launcherOrigin, gameConfig) {
 
-            var launchUrl =  launcherOrigin + "gdmporting/gcm/gcm-launcher/launcher.html";
+            var launchUrl =  launcherOrigin + "/gdmporting/gcm/gcm-launcher/launcher.html";
             var ifrm_ = document.createElement('iframe');
 
             console.log("ifrm_ " + ifrm_);
