@@ -1,4 +1,3 @@
-@startuml;
 digraph G {size ="4,4";  GameTemplateMapping [shape=box]; GameTemplateMapping -> MainTemplate_Common [label="Points To"];  }
 https://g.gravizo.com/svg? digraph G { aize ="4,4"; GameTemplateMapping [shape=box]; GameTemplateMapping -> MainTemplate_Common [label="Points To"]; GameTemplateMapping -> Partial_Templates_Common_and_GameSpecific [label="Points To"]; MainTemplate_Common -> Handlebars_Template_Engine [label="Used by"]; Partial_Templates_Common_and_GameSpecific ->Handlebars_Template_Engine [label="Used by"]; MainTemplate_Common -> Helper_Functions [style=dotted, label="Refers"]; Partial_Templates_Common_and_GameSpecific-> Helper_Functions [style=dotted,label="Refers"]; Helper_Functions -> Handlebars_Template_Engine [label="Used by"];  Message [shape=box]; Message -> Message_Parser; Message_Parser -> Handlebars_Template_Engine [label="Data Source"]; Handlebars_Template_Engine -> Composed_Output}
-@enduml
+
